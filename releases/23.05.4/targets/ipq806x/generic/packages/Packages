@@ -117,20 +117,20 @@ SHA256sum: d8b4f38bf8475a7520518084947f8c72f978127e92a38a4de152fc61080f0388
 Description:  Kernel support for ATA over Ethernet
 
 Package: kmod-ar5523
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211, kmod-ath, kmod-usb-core, kmod-input-core
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ar5523
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 12577
-Filename: kmod-ar5523_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 13392
-SHA256sum: c96fb6f7e72456b7b567839d73c9b33aff878977e5d87441d9fe99df18170ee6
+Installed-Size: 12581
+Filename: kmod-ar5523_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 13396
+SHA256sum: 801891fd96540a6ef46f3e34b15f66e156a43d4f7d3b1da16f4e8aa95157b72a
 Description:  Driver for Atheros AR5523 USB sticks
 
 Package: kmod-arptables
@@ -360,74 +360,74 @@ SHA256sum: e2eb88fd483748dbca6211efcfcbc6f151de2c811ca1903b3131a7fdb586cd76
 Description:  This option enables support for VIA Serial ATA
 
 Package: kmod-ath10k-smallbuffers
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-ath
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath10k-smallbuffers
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 197220
-Filename: kmod-ath10k-smallbuffers_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 195795
-SHA256sum: 7e646863d850fa71fbe663b12ce3023a940f6d3049313ffe0296f14d239559e3
+Installed-Size: 197227
+Filename: kmod-ath10k-smallbuffers_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 195696
+SHA256sum: e769adb89cb8a6237476e3b9f41a245fd373d7305c24e94a9eb6b03c512b6ff1
 Description:  Atheros 802.11ac wireless cards support (small buffers for low-RAM devices)
 
 Package: kmod-ath10k
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-ath
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath10k
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 197197
-Filename: kmod-ath10k_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 195798
-SHA256sum: c32b74cf96279a9d882751f3a91fcfdf2757acdffacabbebdfcc6c02056ea206
+Installed-Size: 197201
+Filename: kmod-ath10k_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 195773
+SHA256sum: b39a0f5d15c291af7c3a353d8a1447438287e242671dcbcb0f9ea554f8a8ee25
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11ac family of chipsets. For now only
  PCI is supported.
 
 Package: kmod-ath11k-pci
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-qrtr-mhi, kmod-ath11k
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath11k-pci
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 8132
-Filename: kmod-ath11k-pci_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 9020
-SHA256sum: 8192eb11aa2dd6729ffdfc2d8976e17e0865617b30791bf9a027a590f5adc564
+Installed-Size: 8134
+Filename: kmod-ath11k-pci_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9026
+SHA256sum: cc2ccc436419d8b9463e3f12ea7c8db2d36c7bffe896eb5712a845cf9b0d649f
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets with PCI bus.
 
 Package: kmod-ath11k
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-ath, kmod-crypto-michael-mic
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath11k
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 223492
-Filename: kmod-ath11k_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 220692
-SHA256sum: ffbedb12eacea64005d40446f9e1123cf29538310094b8058d3c1e5010afc78e
+Installed-Size: 223654
+Filename: kmod-ath11k_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 221116
+SHA256sum: 481259c3de18e9c8da795823c0f1e5a00cce6524701a37afe336f7886e7a9417
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets.
 
@@ -448,144 +448,144 @@ SHA256sum: 32a2d087ff45bfdc3753ec05dd22e3a8d376addfe6c45086a764defea6c532bb
 Description:  Kernel support for ATH3K Module
 
 Package: kmod-ath5k
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-ath
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath5k
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 82702
-Filename: kmod-ath5k_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 83032
-SHA256sum: bb9382bcc6298f3ea86924d19b0dddb5e005eb7c2abb105a656bd0b6455d571f
+Installed-Size: 82706
+Filename: kmod-ath5k_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 83049
+SHA256sum: 64c48d7f554aaf6c1dda1cb3e4dc3506a5756f3be1ecf59861beaa99f8f013ae
 Description:  This module adds support for wireless adapters based on
  Atheros 5xxx chipset.
 
 Package: kmod-ath6kl-sdio
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mmc, kmod-ath6kl
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath6kl-sdio
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 8606
-Filename: kmod-ath6kl-sdio_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 9496
-SHA256sum: b815a47f15e38afacf6b3cc66c0fa3037a84f7ead41cea24d3896947b888991c
+Installed-Size: 8610
+Filename: kmod-ath6kl-sdio_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9507
+SHA256sum: 7622c52714e34f17b1d6fa2d67b8d04f4daf4fb53fee8a6becb42ee202eeeaf4
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR6003 and AR6004 family of chipsets.
 
 Package: kmod-ath6kl-usb
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-usb-core, kmod-ath6kl
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath6kl-usb
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 6561
-Filename: kmod-ath6kl-usb_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 7478
-SHA256sum: 855411731b65ea46deb38e6323d37fb3ea9427a2c1eac4fffb5f2bc9e5930c6a
+Installed-Size: 6562
+Filename: kmod-ath6kl-usb_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7480
+SHA256sum: bbd9101dc87564a845aad033887f68d0aa791f8020904d41e523279a2275ebe5
 Description:  This module adds support for wireless adapters based on the
  Atheros IEEE 802.11n AR6004 chipset.
 
 Package: kmod-ath6kl
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-ath
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath6kl
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 105919
-Filename: kmod-ath6kl_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 105692
-SHA256sum: 59a763c38cf942e08b27c1a3588e5ab478e1ff85a9bd7d42326241a075298015
+Installed-Size: 105920
+Filename: kmod-ath6kl_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 105705
+SHA256sum: d0cf1e048ceb3048ec68034dd22d4862419a0e2cc681fcd5ed059dbbd87ef066
 Description:  Atheros FullMAC wireless devices (common code for ath6kl_sdio and ath6kl_usb)
 
 Package: kmod-ath9k-common
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-ath, kmod-random-core
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath9k-common
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 125733
-Filename: kmod-ath9k-common_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 124039
-SHA256sum: adf040d449f2162167a919f152067897c72c40bbcdaa2feb57a37c7316c02819
+Installed-Size: 125735
+Filename: kmod-ath9k-common_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 124111
+SHA256sum: d7e8a64bf4607d7130802193bf3edbe92db29218f1b780aa0e25c8f2c59a5908
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k-htc
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-ath9k-common, kmod-usb-core, ath9k-htc-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath9k-htc
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 36891
-Filename: kmod-ath9k-htc_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 37813
-SHA256sum: 076f5de04b93e9a7c0066cebb9945cbebb189f26259d84ab47a70e07a1b8801d
+Installed-Size: 36894
+Filename: kmod-ath9k-htc_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 37827
+SHA256sum: 5fa863b87dbf070b9365dc324d41fb2fdc7499c6b19818074b6da330beb01e3d
 Description:  This module adds support for wireless adapters based on
  Atheros USB AR9271 and AR7010 family of chipsets.
 
 Package: kmod-ath9k
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-ath9k-common
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath9k
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 62665
-Filename: kmod-ath9k_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 63212
-SHA256sum: dea5cd47d330fd06c9193c7b9c680fc07fd44b112f590f48746e11b4fa194ca1
+Installed-Size: 62668
+Filename: kmod-ath9k_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 63233
+SHA256sum: 24039e908c1463bdb0ac6b0b15459908606b9a92dfbb300cd59c1cd9531b7889
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
 Package: kmod-ath
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211
 Source: /feed/packages/mac80211-update
 SourceName: kmod-ath
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 12090
-Filename: kmod-ath_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 12912
-SHA256sum: a616f2fa076d21c48f42eeb18d56ba930cca0fe0f82f70b1205117d2794eee15
+Installed-Size: 12237
+Filename: kmod-ath_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 12967
+SHA256sum: 6154d71ee070e245d172c0405a755f25c315e40e447995807e53673fea3b0143
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-atl1
@@ -733,20 +733,20 @@ SHA256sum: 649fa403afecd8050cccf8489b5a60426a3dadb255485ffcec8979c9a55b2b18
 Description:  Kernel modules for AX25 support
 
 Package: kmod-b43
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211, kmod-lib-cordic, kmod-ssb, kmod-bcma
 Source: /feed/packages/mac80211-update
 SourceName: kmod-b43
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 283925
-Filename: kmod-b43_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 279482
-SHA256sum: 5f21c00d2e3e1877d79c63345ab8968b42ced0d3143645b621e8efcf0b9a8eb0
+Installed-Size: 283930
+Filename: kmod-b43_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 279499
+SHA256sum: 22b75fa736a10d363b76b3457e0d6df35b361b21083ff8ea157c6a1a2f922960
 Description:  Kernel module for Broadcom 43xx wireless support (mac80211 stack) new
 
 Package: kmod-b44
@@ -926,54 +926,54 @@ SHA256sum: 866bae5f6c6b72b3a53f85bb35ac243c206e7447a4acf4f4e2b6a68456f482ef
 Description:  Bridge netfilter support modules
 
 Package: kmod-brcmfmac
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-cfg80211, kmod-brcmutil, kmod-usb-core, brcmfmac-firmware-usb
 Source: /feed/packages/mac80211-update
 SourceName: kmod-brcmfmac
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 113847
-Filename: kmod-brcmfmac_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 114140
-SHA256sum: 3ce4d2c19b7a8029ae980d57fb4982f1108353d857349a7a726da16095d4b40c
+Installed-Size: 113854
+Filename: kmod-brcmfmac_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 114175
+SHA256sum: 8b28d6edb1cbae011f4c0178106eb7c9a18f89fbca07f7c68ae506ab9eba1c24
 Description:  Kernel module for Broadcom IEEE802.11n USB Wireless cards
 
 Package: kmod-brcmsmac
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211, kmod-bcma, kmod-lib-cordic, kmod-lib-crc8, kmod-brcmutil
 Source: /feed/packages/mac80211-update
 SourceName: kmod-brcmsmac
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 230309
-Filename: kmod-brcmsmac_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 226653
-SHA256sum: 6b44745b18936ba1f65263a7f2fe8854f5526f8e959d0720caa2f1d360d5a5d8
+Installed-Size: 230357
+Filename: kmod-brcmsmac_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 226607
+SHA256sum: 4cdb126fce118f6e713095f500e53c02d9c495681650d5daac78dc8d1a07a23e
 Description:  Kernel module for Broadcom IEEE802.11n PCIe Wireless cards
 
 Package: kmod-brcmutil
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb)
 Source: /feed/packages/mac80211-update
 SourceName: kmod-brcmutil
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 4226
-Filename: kmod-brcmutil_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 5065
-SHA256sum: 192c3204213ee561deb45143beaff0b172df9fb77d753ab59f249bcde0e91887
+Installed-Size: 4229
+Filename: kmod-brcmutil_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5072
+SHA256sum: 04d8fd83bc99639e1f4c794e5b4f3fd28d7139ee7ec2907b851a63f77dce63ba
 Description:  This module contains some common parts needed by Broadcom Wireless drivers brcmsmac and brcmfmac.
 
 Package: kmod-btmrvl
@@ -1282,20 +1282,20 @@ SHA256sum: ce4bd1d75a814f5ebd748d1b902e5c01344adc6c1eb6a25d55f29ae131ad5303
 Description:  Kernel module for CAN bus support.
 
 Package: kmod-carl9170
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211, kmod-ath, kmod-usb-core, kmod-input-core, carl9170-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-carl9170
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 50516
-Filename: kmod-carl9170_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 51110
-SHA256sum: ba676097a2d9120a4ad4739837bf9c1488f642b94a2921268ecef150ab2ca4ef
+Installed-Size: 50518
+Filename: kmod-carl9170_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 51119
+SHA256sum: b3932f2e1fc7c17c86558f889aed3db74b779e384f97f14dbd43143b57ee8b90
 Description:  Driver for Atheros AR9170 USB sticks
 
 Package: kmod-cc2520
@@ -1331,20 +1331,20 @@ SHA256sum: e098c9eff8d861f00291616064e5af03f743d8b240e617d1e923591b5fb71b49
 Description:  Kernel library module for CD / DVD drives
 
 Package: kmod-cfg80211
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), iw, iwinfo, wireless-regdb
 Source: /feed/packages/mac80211-update
 SourceName: kmod-cfg80211
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 163441
-Filename: kmod-cfg80211_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 163310
-SHA256sum: e62bb5979f8d98a4d3933f38faa6f7ad8b6492369f16ac767b8ba7be7bff8042
+Installed-Size: 163527
+Filename: kmod-cfg80211_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 163346
+SHA256sum: fc9ea43585e95db8bc0169ae0f4b5cfa8e67652bbdb9d5ef6a98875277e8b9a2
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-chaoskey
@@ -5919,20 +5919,20 @@ Description:  The iSCSI Driver provides a host with the ability to access storag
  responses over a TCP/IP network between the host (the "initiator") and "targets".
 
 Package: kmod-iwlwifi
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211
 Source: /feed/packages/mac80211-update
 SourceName: kmod-iwlwifi
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 342341
-Filename: kmod-iwlwifi_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 341228
-SHA256sum: f395195710c8ec910601a10775b6719498a847516cd7bb6b40ec8b3dff333f66
+Installed-Size: 342328
+Filename: kmod-iwlwifi_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 341172
+SHA256sum: 51608ef6d6133b9301dba92566886bda94367ab8ae2107cf244fdf78e7d7c1d9
 Description:  iwlwifi kernel module for
  Intel Wireless WiFi Link 6250AGN Adapter
  Intel 6000 Series Wi-Fi Adapters (6200AGN and 6300AGN)
@@ -6689,37 +6689,37 @@ SHA256sum: b0eacdd8b9c97cdbcd5f6626d3213c3c7875480dc5ec459ebb5791c763c52c81
 Description:  Parallel port line printer device support
 
 Package: kmod-mac80211-hwsim
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211
 Source: /feed/packages/mac80211-update
 SourceName: kmod-mac80211-hwsim
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 26942
-Filename: kmod-mac80211-hwsim_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 27712
-SHA256sum: 6990a58ab37b714d17d792e6ebc4561e58fed6bb1e134625f4a45cc1d08685db
+Installed-Size: 26947
+Filename: kmod-mac80211-hwsim_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 27742
+SHA256sum: aebcbc70e1310bb5f79e3bf6c497028d3af7c2cf549653bfdd783ba9147d5bf2
 Description:  mac80211 HW simulation device
 
 Package: kmod-mac80211
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-cfg80211, kmod-crypto-cmac, kmod-crypto-ccm, kmod-crypto-gcm, hostapd-common
 Source: /feed/packages/mac80211-update
 SourceName: kmod-mac80211
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 329308
-Filename: kmod-mac80211_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 327313
-SHA256sum: 02fe549909d32f39e617a486047f48b8364759e77b7d7f73c6c1203764b2d46e
+Installed-Size: 329322
+Filename: kmod-mac80211_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 327403
+SHA256sum: 9dff803e9d04fcca3982bb69334c04edf8e3eea2a97c6e72f6b89e034a788445
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mac802154
@@ -7191,20 +7191,20 @@ SHA256sum: 7b983143bcb23112bfc21b83a3087db54a7e25579bec5eedc5e3f2a692f35c53
 Description:  MRF24J40 transceiver driver
 
 Package: kmod-mt7601u
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211, kmod-usb-core, mt7601u-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-mt7601u
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 31025
-Filename: kmod-mt7601u_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 31718
-SHA256sum: efa2cf2cf7e70604a9ad9c930a587a01cba103d3af0c2d09cd20f7d1e6657e4c
+Installed-Size: 31032
+Filename: kmod-mt7601u_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 31705
+SHA256sum: 7b256f238379370f3ec15d4828d0c2641837cb05477fcd74bda9f24b9e1b840a
 Description:  MT7601U-based USB dongles Wireless Driver
 
 Package: kmod-mtdoops
@@ -7288,54 +7288,54 @@ SHA256sum: 71db0a80a1b8ee94f5a0dedfb22d26748918707e782bed54e06136c8e5b154f3
 Description:  Kernel modules for GPIO-controlled Multiplexer controller
 
 Package: kmod-mwifiex-pcie
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211, mwifiex-pcie-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-mwifiex-pcie
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 154836
-Filename: kmod-mwifiex-pcie_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 153391
-SHA256sum: 41c82102122a4ae91dee1b64c09c3283608bee45766bc7412d852f618263b5ea
+Installed-Size: 154981
+Filename: kmod-mwifiex-pcie_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 153511
+SHA256sum: 9b0f44db8ad53901dbcb87a058ebd1d9d34d5341d64888fa5267d3c31562720c
 Description:  Kernel modules for Marvell 802.11n/802.11ac PCIe Wireless cards
 
 Package: kmod-mwifiex-sdio
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mmc, kmod-mac80211, mwifiex-sdio-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-mwifiex-sdio
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 153346
-Filename: kmod-mwifiex-sdio_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 151987
-SHA256sum: b4958ea7d53543994577c24f22edf09fa35789e2e2037833e7256577ec6d5322
+Installed-Size: 153509
+Filename: kmod-mwifiex-sdio_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 152126
+SHA256sum: 678b813d8ed73011337ad452aa2a25c9d7f1941c7d7352f586065dd613cfbb9b
 Description:  Kernel modules for Marvell 802.11n/802.11ac SDIO Wireless cards
 
 Package: kmod-mwl8k
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211, mwl8k-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-mwl8k
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 26475
-Filename: kmod-mwl8k_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 27195
-SHA256sum: 022d3a4d76abcc6eb166be40796e6081c90b978cb42b7e44bfb13ae314adf216
+Filename: kmod-mwl8k_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 27190
+SHA256sum: 2f3669dd2609074614467b0bcd297c7f0576d6f5c7afd5b900abee747c74d24c
 Description:  Kernel modules for Marvell TOPDOG 802.11 Wireless cards
 
 Package: kmod-natsemi
@@ -8517,20 +8517,20 @@ SHA256sum: 78bb30bb4c9f10ec0dfa60a4219a7d341062535a7d24f896ed135eda880ae445
 Description:  Object identifier registry
 
 Package: kmod-owl-loader
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-ath9k
 Source: /feed/packages/mac80211-update
 SourceName: kmod-owl-loader
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 3038
-Filename: kmod-owl-loader_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 3998
-SHA256sum: edaace98846268ed696e49889e8ece33bb93b06a6af575eb4022a1fd253e26cd
+Installed-Size: 3041
+Filename: kmod-owl-loader_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4005
+SHA256sum: 7f31786c3f3167a1ae436efe71bfd1e6b0f4bcbf7cb86222b5794e3ba6bc7524
 Description:  Kernel module that helps to initialize certain Qualcomm
  Atheros' PCI(e) Wifi chips, which have the init data
  (which contains the PCI device ID for example) stored
@@ -9289,190 +9289,190 @@ SHA256sum: 534f0eb33e9ac32cbb345c09643e5934f288d84e898efec5cee93f1548cacab9
 Description:  SPI register map support
 
 Package: kmod-rsi91x-sdio
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211, kmod-mmc, kmod-rsi91x, rs9113-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rsi91x-sdio
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 10309
-Filename: kmod-rsi91x-sdio_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 11171
-SHA256sum: 23936b7f37ec7ed6fa3decde0e199b3b4c6b909b7014f3bca4eba97188dbedbf
+Installed-Size: 10310
+Filename: kmod-rsi91x-sdio_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11161
+SHA256sum: d0ad5c4f8c8b03bdb4f37e403bea17bc97626f70fb815b24540bbfc651bba043
 Description:  Redpine Signals SDIO bus support
 
 Package: kmod-rsi91x-usb
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-usb-core, kmod-mac80211, kmod-rsi91x, rs9113-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rsi91x-usb
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 6793
-Filename: kmod-rsi91x-usb_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 7673
-SHA256sum: 1981e8b0150355f4886f96450eb37c4b90b06d568051d411f318904aa3b275cf
+Installed-Size: 6795
+Filename: kmod-rsi91x-usb_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7681
+SHA256sum: bb4e8725e317c4925d10e7d398f830dc0a69c5e71057c4b55e537351c9b692b1
 Description:  Redpine Signals USB bus support
 
 Package: kmod-rsi91x
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211, rs9113-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rsi91x
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 32097
-Filename: kmod-rsi91x_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 32860
-SHA256sum: aca3ac677621a66d165f61818932e43db0b06b22757a9895f0aab91a0ba06f35
+Installed-Size: 32100
+Filename: kmod-rsi91x_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 32876
+SHA256sum: d3bcfc18ad6dca95777e52d65e0c1ded3745c064bd680255f6f79725d53aa53d
 Description:  Redpine Signals Inc 91x WLAN driver support
 
 Package: kmod-rt2800-lib
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rt2x00-lib, kmod-lib-crc-ccitt
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rt2800-lib
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 53502
-Filename: kmod-rt2800-lib_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 54042
-SHA256sum: 4baf1e3c51df5edcdc6011e0ae265d9e222caee4eeb73b87c2dacbeb9e1006b4
+Installed-Size: 53503
+Filename: kmod-rt2800-lib_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 54073
+SHA256sum: 69b66185d0b226ca303d455ace595278d131c76c21d7962635fd1a46ec97255a
 Description:  Ralink Drivers for RT2x00 cards (rt2800 LIB)
 
 Package: kmod-rt2800-mmio
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rt2800-lib, kmod-rt2x00-mmio
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rt2800-mmio
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 4866
-Filename: kmod-rt2800-mmio_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Installed-Size: 4868
+Filename: kmod-rt2800-mmio_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
 Size: 5690
-SHA256sum: 845ceec2bcc0afdd4dbf8efd3ec650f6bb8e99ecb50f966e3bad0499484eaca8
+SHA256sum: c98a50fcbd7258ad7893b9c57cb8bcda600aa3c42b6500a2daf60c840e6de7ec
 Description:  Ralink Drivers for RT2x00 cards (RT28xx/RT3xxx MMIO)
 
 Package: kmod-rt2800-pci
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rt2x00-pci, kmod-rt2800-lib, kmod-rt2800-mmio, kmod-eeprom-93cx6, rt2800-pci-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rt2800-pci
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 4233
-Filename: kmod-rt2800-pci_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 5091
-SHA256sum: 0bedb5c9a6e7ebf45ba7cb4b14e16cbc8a0d1aae1c1eee6ddb90bc74e31b96da
+Installed-Size: 4236
+Filename: kmod-rt2800-pci_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5096
+SHA256sum: 2bb79ba4f6403ff8da5e257e0130700f0483174362339a2c08dfaabf00dc9c06
 Description:  Ralink Drivers for RT2x00 cards (RT2860 PCI)
 
 Package: kmod-rt2800-usb
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rt2x00-usb, kmod-rt2800-lib, kmod-lib-crc-ccitt, rt2800-usb-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rt2800-usb
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 7373
-Filename: kmod-rt2800-usb_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 8271
-SHA256sum: 2fc4a04e0c65d3b22506b6331783800a28783a70323cb6c8eb887f53d5ca6247
+Installed-Size: 7375
+Filename: kmod-rt2800-usb_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8264
+SHA256sum: b5b62e62156139c962fa1ad2b0a53ede597e366f76cc7ea4f6e52464894f608b
 Description:  Ralink Drivers for RT2x00 cards (RT2870 USB)
 
 Package: kmod-rt2x00-lib
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rt2x00-lib
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 23796
-Filename: kmod-rt2x00-lib_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 24497
-SHA256sum: 4fab6c82ba6e33b612d80ff9aba27dd6ef8868280e9abb9465a2093fe7a886a2
+Installed-Size: 23798
+Filename: kmod-rt2x00-lib_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24506
+SHA256sum: 949552174702d41b84da9733db44b529a9d4967056586c6e5031f3fd8f18685c
 Description:  Ralink Drivers for RT2x00 cards (LIB)
 
 Package: kmod-rt2x00-mmio
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rt2x00-lib
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rt2x00-mmio
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 2181
-Filename: kmod-rt2x00-mmio_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 3022
-SHA256sum: 3b3df5bdce08d584d697616c2e41402925f5d74ea2dad359f7896186d8f782f9
+Installed-Size: 2183
+Filename: kmod-rt2x00-mmio_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3034
+SHA256sum: 93ca6c6507675382cce6e628c8f36f9e5b2219b2049edd610c2cba6846b582c1
 Description:  Ralink Drivers for RT2x00 cards (MMIO)
 
 Package: kmod-rt2x00-pci
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rt2x00-mmio, kmod-rt2x00-lib
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rt2x00-pci
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 2087
-Filename: kmod-rt2x00-pci_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 2898
-SHA256sum: 47b9cfa7793ddd5b6ff9937c402ff273523487a6ae77c6fbc022d7c128ee9e64
+Installed-Size: 2089
+Filename: kmod-rt2x00-pci_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2900
+SHA256sum: e68f70525c91eee1d7f666c9e19335acbdc72d87d84f37abd41eb8643e8e2ddf
 Description:  Ralink Drivers for RT2x00 cards (PCI)
 
 Package: kmod-rt2x00-usb
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rt2x00-lib, kmod-usb-core
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rt2x00-usb
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 6501
-Filename: kmod-rt2x00-usb_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 7377
-SHA256sum: 4cd872f1374b9fcd28caae3cf0397cd0220885f9ca314cf4264c4b4500f10c7a
+Installed-Size: 6503
+Filename: kmod-rt2x00-usb_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7378
+SHA256sum: b9e9125c20b706f1e70917627e89a2dd6a1c5566233cfd0548fe37ee1260bf15
 Description:  Ralink Drivers for RT2x00 cards (USB)
 
 Package: kmod-rtc-ds1307
@@ -9654,141 +9654,141 @@ SHA256sum: b21aa661ecd692f980310c25471b7c790cfb848525933a926cb007537d65d75f
 Description:  Kernel module for Seiko Instruments S-35390A I2C RTC chip
 
 Package: kmod-rtl8192c-common
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rtlwifi
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtl8192c-common
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 18438
-Filename: kmod-rtl8192c-common_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 19271
-SHA256sum: 957aa50de7c0b2d27c62f7c3b93579a7469104990a8a2d0bc820923aa7dc4b0a
+Installed-Size: 18440
+Filename: kmod-rtl8192c-common_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 19283
+SHA256sum: 9e570358eb7b41404f2f9353e5c0db1c8b7521f632ce128a4da444eb356ab953
 Description:  Realtek RTL8192CE/RTL8192CU common support module
 
 Package: kmod-rtl8192ce
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rtlwifi-pci, kmod-rtl8192c-common, rtl8192ce-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtl8192ce
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 24534
-Filename: kmod-rtl8192ce_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 25257
-SHA256sum: 3ebf901269c6ef6c6e23a5f5ac72d163102153a68d37e7de360725b10a485a0d
+Filename: kmod-rtl8192ce_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 25260
+SHA256sum: 68dd2ac61940ae4b4626a87015ddfab384f63184b688ff9af608efcb5016ab95
 Description:  Realtek RTL8192CE/RTL8188CE support
 
 Package: kmod-rtl8192cu
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rtlwifi-usb, kmod-rtl8192c-common, rtl8192cu-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtl8192cu
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 26471
-Filename: kmod-rtl8192cu_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 27200
-SHA256sum: d3140d4a35eec7eaf5cf89f636c8dc9e79cec88306273021cce52a6a9c94ef53
+Installed-Size: 26475
+Filename: kmod-rtl8192cu_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 27249
+SHA256sum: 5d34743f552d0820db56ca11d8ecc63af6b40fffcfa8a6281a29357fc0469726
 Description:  Realtek RTL8192CU/RTL8188CU support
 
 Package: kmod-rtl8192de
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rtlwifi-pci, rtl8192de-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtl8192de
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 45549
-Filename: kmod-rtl8192de_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 46263
-SHA256sum: 3313cbff1bc00e9d264ad09dbd61f0e85f7ea75fc4f7c27ac5ee7266749fcb8e
+Installed-Size: 45554
+Filename: kmod-rtl8192de_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 46292
+SHA256sum: b178a411878511bc7839921fa88405d916b15fe98797d3d82b511596d9da9514
 Description:  Realtek RTL8192DE/RTL8188DE support
 
 Package: kmod-rtl8192se
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rtlwifi-pci, rtl8192se-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtl8192se
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 30077
-Filename: kmod-rtl8192se_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 30837
-SHA256sum: 8ed5154274ba3758733890a822e03d2492bc900a8dd708d0aad01e3a9c260ce5
+Installed-Size: 30080
+Filename: kmod-rtl8192se_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 30841
+SHA256sum: 6ddc269da7cc71e00b2ebc3e1d543e182aa6b307b0bdcc636ac21578bf4a9329
 Description:  Realtek RTL8192SE/RTL8191SE support
 
 Package: kmod-rtl8723bs
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mmc, kmod-mac80211
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtl8723bs
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 200817
-Filename: kmod-rtl8723bs_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 199437
-SHA256sum: 6dacf3c90cc7248af608fdebd3f1c7419f0023c03fbd004af89b237d652f6219
+Installed-Size: 200819
+Filename: kmod-rtl8723bs_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 199387
+SHA256sum: e9eb8c183b2fe1fe5f10af3b6450619be236f492aae64c424ebba5bc83b99c2f
 Description:  This option enables support for RTL8723BS SDIO drivers, such as the wifi found
  on the 1st gen Intel Compute Stick, the CHIP and many other Intel Atom and ARM
  based devices.
 
 Package: kmod-rtl8821ae
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rtlwifi-btcoexist, kmod-rtlwifi-pci, rtl8821ae-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtl8821ae
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 74953
-Filename: kmod-rtl8821ae_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 64549
-SHA256sum: a253715a430510be76583186a453a6cc4becffc51ebb5dad917b209d04647e50
+Installed-Size: 74954
+Filename: kmod-rtl8821ae_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 64532
+SHA256sum: d7a7d4e665c56ea87d28513074c7024fd48cc0a62daf6e9e753be80bfa31a2fa
 Description:  Realtek RTL8821AE support
 
 Package: kmod-rtl8xxxu
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-usb-core, kmod-mac80211
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtl8xxxu
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 44927
-Filename: kmod-rtl8xxxu_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 46122
-SHA256sum: 72be497dca328ccf90710ad78a7b699409c81c71f53d5310ac867f7bcd75afc0
+Installed-Size: 44931
+Filename: kmod-rtl8xxxu_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 46125
+SHA256sum: 1f59733ab7aaa74b11b31c8fcdc7776f2ff8dfc7695b92c8d8cc7b30bc9e4511
 Description:  This is an alternative driver for various Realtek RTL8XXX
  parts written to utilize the Linux mac80211 stack.
  The driver is known to work with a number of RTL8723AU,
@@ -9812,88 +9812,88 @@ Description:  This is an alternative driver for various Realtek RTL8XXX
  Please report your results!
 
 Package: kmod-rtlwifi-btcoexist
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rtlwifi
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtlwifi-btcoexist
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 56793
-Filename: kmod-rtlwifi-btcoexist_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 56597
-SHA256sum: 21dd35aef927541e9c253e4307f27406adde099a49506142e9cd92dff6ce935a
+Installed-Size: 56796
+Filename: kmod-rtlwifi-btcoexist_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 56604
+SHA256sum: 94d7b381e9ec0beba7cd08ce451d2557003e01e8a9dd0ad1d5d89f98ad50dac6
 Description:  Realtek BT coexist support
 
 Package: kmod-rtlwifi-pci
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-rtlwifi
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtlwifi-pci
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 12587
-Filename: kmod-rtlwifi-pci_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 13423
-SHA256sum: cc5cd5c1c807a4c6c27ab00c6ae4f89dce90b91260e4b94d0e14bf5dd3caf4c3
+Installed-Size: 12590
+Filename: kmod-rtlwifi-pci_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 13435
+SHA256sum: 56d46b42866680451500c3a5ea03d23dbf37953edc7af970622a6e676318d512
 Description:  Realtek common driver part (PCI support)
 
 Package: kmod-rtlwifi-usb
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-usb-core, kmod-rtlwifi
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtlwifi-usb
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 7497
-Filename: kmod-rtlwifi-usb_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 8341
-SHA256sum: 9d5b722ff657d55d868dbf1d6cdfa52bec66e5d41ddc28b77bc065fb5c34926f
+Installed-Size: 7501
+Filename: kmod-rtlwifi-usb_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8350
+SHA256sum: a97403c14ac996d359f80adef9072163e30f189f709d37103421fcb574e12c91
 Description:  Realtek common driver part (USB support)
 
 Package: kmod-rtlwifi
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtlwifi
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 33261
-Filename: kmod-rtlwifi_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 34028
-SHA256sum: d55c323de4e9086f9b8cd623a045d034db850ddf4791d9fd29c74b77b84e5015
+Filename: kmod-rtlwifi_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 34013
+SHA256sum: 504d937b3c8e12c4535644819393f8a14638a70a567a2957766959a5eb05235b
 Description:  Realtek common driver part
 
 Package: kmod-rtw88
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211
 Source: /feed/packages/mac80211-update
 SourceName: kmod-rtw88
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 191265
-Filename: kmod-rtw88_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 180629
-SHA256sum: 516f84f94ec4e32ecb345bc1186695162e2483e5c3c8174333bf4ee4fd488427
+Installed-Size: 191269
+Filename: kmod-rtw88_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 180630
+SHA256sum: f0a35642503243af185cc1e4ab0ecc0e349cf91893548214b088253d6ac45bac
 Description:  Realtek RTL8822BE/RTL8822CE/RTL8723DE
 
 Package: kmod-sched-act-ipt
@@ -13723,20 +13723,20 @@ SHA256sum: b0f672958178171b74f5829741c4ef37d89a6faea89bb2446b0accda5462a84e
 Description:  Kernel module for Dallas's 1-wire support
 
 Package: kmod-wil6210
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mac80211, wil6210-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-wil6210
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 132804
-Filename: kmod-wil6210_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 131827
-SHA256sum: 22dc21f5fcf65319335847cefe585755767beca3bddc1fd9195c06e7b2ef5cb1
+Installed-Size: 132806
+Filename: kmod-wil6210_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 131843
+SHA256sum: aa9af44faa5ad833e2589157ccfde01626d4e1ec2e874df71402c2e7a2738deb
 Description:  QCA/Wilocity 60g WiFi card wil6210 support
 
 Package: kmod-wireguard
@@ -13761,54 +13761,54 @@ Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and uti
  alike, fit for many different circumstances. It uses UDP.
 
 Package: kmod-wl12xx
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-wlcore, wl12xx-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-wl12xx
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 19497
-Filename: kmod-wl12xx_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 19997
-SHA256sum: cfd2fd072beba419b940306a3793e5bfb9d68307ce21320e4f5106802f6acb26
+Installed-Size: 19501
+Filename: kmod-wl12xx_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 19982
+SHA256sum: 9b2c695e0b42751f0b79987e07229ac0da258ac3574c447128c27da32a3461a0
 Description:  Kernel modules for TI WL12xx
 
 Package: kmod-wl18xx
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-wlcore, wl18xx-firmware
 Source: /feed/packages/mac80211-update
 SourceName: kmod-wl18xx
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 27097
-Filename: kmod-wl18xx_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 27198
-SHA256sum: 1311b8adddef2f3b340c005722db121d79792959103d997ff7004c8955fb81b2
+Installed-Size: 27017
+Filename: kmod-wl18xx_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 27213
+SHA256sum: 352d5a3a4cdfba9d79259a5c1cb53a29d35e4110c5b6037decad25e772bde676
 Description:  Kernel modules for TI WL18xx
 
 Package: kmod-wlcore
-Version: 5.15.162+6.1.102-1-1
+Version: 5.15.162+6.1.110-1-1
 Depends: kernel (=5.15.162-1-b1fe4114538825e8d7434b5c30a708fb), kmod-mmc, kmod-mac80211
 Source: /feed/packages/mac80211-update
 SourceName: kmod-wlcore
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1722854957
+SourceDateEpoch: 1726543231
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 83890
-Filename: kmod-wlcore_5.15.162+6.1.102-1-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 84049
-SHA256sum: 67d0cbc91c932654407b4eb260d2ba233a57a873c3c049613858faefc0c5beb5
+Installed-Size: 83262
+Filename: kmod-wlcore_5.15.162+6.1.110-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 83529
+SHA256sum: aa5bcde8650841bff81316dcced3a8dfe8939905741d1dbaabf5efd901140759
 Description:  This module contains some common parts needed by TI Wireless drivers.
 
 Package: kmod-wwan
