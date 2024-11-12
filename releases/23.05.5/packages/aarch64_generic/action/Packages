@@ -1,0 +1,84 @@
+Package: dnsmasq-dhcpv6
+Version: 2.90-26
+Depends: libc, libubus20230605, libpcre
+Provides: dnsmasq
+Source: /feed/packages/dnsmasq-regex-openwrt
+SourceName: dnsmasq-dhcpv6
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1711328670
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: aarch64_generic
+Installed-Size: 178886
+Filename: dnsmasq-dhcpv6_2.90-26_aarch64_generic.ipk
+Size: 179469
+SHA256sum: 1da1be52c1bbf82e7a098befec15e6e5006052c1e29f5ac855d39d0e3010d6f4
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a variant with DHCPv6 support
+
+Package: dnsmasq-full
+Version: 2.90-26
+Depends: libc, libubus20230605, libpcre, libnettle8, libnetfilter-conntrack3, nftables-json
+Provides: dnsmasq
+Source: /feed/packages/dnsmasq-regex-openwrt
+SourceName: dnsmasq-full
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1711328670
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: aarch64_generic
+Installed-Size: 206598
+Filename: dnsmasq-full_2.90-26_aarch64_generic.ipk
+Size: 207134
+SHA256sum: df46b5b4e123adab807929e70de0159d4647ad9b3873aa4f26eee94264444ee9
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
+ and nftset, Conntrack support & NO_ID enabled by default.
+
+Package: dnsmasq
+Version: 2.90-26
+Depends: libc, libubus20230605, libpcre
+Source: /feed/packages/dnsmasq-regex-openwrt
+SourceName: dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1711328670
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: aarch64_generic
+Installed-Size: 151327
+Filename: dnsmasq_2.90-26_aarch64_generic.ipk
+Size: 151594
+SHA256sum: f9fe3b8799b6ef25db286e01993f37522f4c1af2937a87b31587a176fefc0c2e
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: ocserv
+Version: 1.3.0-9
+Depends: libc, libgnutls, certtool, libncurses6, libreadline8, libprotobuf-c, libev, kmod-tun
+Source: /feed/packages/ocserv-update
+SourceName: ocserv
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+Require-User: ocserv=72:ocserv=72
+SourceDateEpoch: 1731445174
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 287544
+Filename: ocserv_1.3.0-9_aarch64_generic.ipk
+Size: 287376
+SHA256sum: c3a605ad13f5e29abc2517a4dd0c38dccd2935617a1544859ec8cde7e1c905a9
+Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
+ a secure, small, fast and configurable VPN server. It implements the
+ OpenConnect SSL VPN protocol, and has also (currently experimental)
+ compatibility with clients using the AnyConnect SSL VPN protocol. The
+ OpenConnect VPN protocol uses the standard IETF security protocols such
+ as TLS 1.2, and Datagram TLS to provide the secure VPN service.
+
