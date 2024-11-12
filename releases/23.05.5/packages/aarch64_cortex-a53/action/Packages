@@ -1,0 +1,84 @@
+Package: dnsmasq-dhcpv6
+Version: 2.90-26
+Depends: libc, libubus20230605, libpcre
+Provides: dnsmasq
+Source: /feed/packages/dnsmasq-regex-openwrt
+SourceName: dnsmasq-dhcpv6
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1711328670
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: aarch64_cortex-a53
+Installed-Size: 178509
+Filename: dnsmasq-dhcpv6_2.90-26_aarch64_cortex-a53.ipk
+Size: 179093
+SHA256sum: 14091963a02ae9da1afadaf1f28a846b4d5c3057010d84f35069f131a6aa52b9
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a variant with DHCPv6 support
+
+Package: dnsmasq-full
+Version: 2.90-26
+Depends: libc, libubus20230605, libpcre, libnettle8, libnetfilter-conntrack3, nftables-json
+Provides: dnsmasq
+Source: /feed/packages/dnsmasq-regex-openwrt
+SourceName: dnsmasq-full
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1711328670
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: aarch64_cortex-a53
+Installed-Size: 206185
+Filename: dnsmasq-full_2.90-26_aarch64_cortex-a53.ipk
+Size: 206732
+SHA256sum: b2a0602fb27ae6da2de84ec8bb7b390d363bb0b91404d5029dd1c2b86ab61fb2
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
+ and nftset, Conntrack support & NO_ID enabled by default.
+
+Package: dnsmasq
+Version: 2.90-26
+Depends: libc, libubus20230605, libpcre
+Source: /feed/packages/dnsmasq-regex-openwrt
+SourceName: dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1711328670
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: aarch64_cortex-a53
+Installed-Size: 151002
+Filename: dnsmasq_2.90-26_aarch64_cortex-a53.ipk
+Size: 151308
+SHA256sum: d09a80da8c3f619b5b6eea4a3b43b6f238e5ea366657c29389ba04d3742c6422
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: ocserv
+Version: 1.3.0-9
+Depends: libc, libgnutls, certtool, libncurses6, libreadline8, libprotobuf-c, libev, kmod-tun
+Source: /feed/packages/ocserv-update
+SourceName: ocserv
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+Require-User: ocserv=72:ocserv=72
+SourceDateEpoch: 1731445174
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 286880
+Filename: ocserv_1.3.0-9_aarch64_cortex-a53.ipk
+Size: 286716
+SHA256sum: edecc49b48a4822e3b191c69653d603e8445e877600fd47818dc89a13b03c0a9
+Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
+ a secure, small, fast and configurable VPN server. It implements the
+ OpenConnect SSL VPN protocol, and has also (currently experimental)
+ compatibility with clients using the AnyConnect SSL VPN protocol. The
+ OpenConnect VPN protocol uses the standard IETF security protocols such
+ as TLS 1.2, and Datagram TLS to provide the secure VPN service.
+
