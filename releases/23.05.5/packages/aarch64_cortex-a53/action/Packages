@@ -59,6 +59,47 @@ Size: 151308
 SHA256sum: d09a80da8c3f619b5b6eea4a3b43b6f238e5ea366657c29389ba04d3742c6422
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
+Package: libmbedtls12
+Version: 2.28.10-1
+Depends: libc
+Provides: libmbedtls
+Source: /feed/packages/mbedtls-update
+SourceName: libmbedtls
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: libs
+SourceDateEpoch: 1744667559
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_cortex-a53
+Installed-Size: 256672
+Filename: libmbedtls12_2.28.10-1_aarch64_cortex-a53.ipk
+Size: 256923
+SHA256sum: 25150dc3161163264cab058cae07160c4d0f9d76744f1ffa4c2de370f39b8241
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: mbedtls-util
+Version: 2.28.10-1
+Depends: libc, libmbedtls12
+Source: /feed/packages/mbedtls-update
+SourceName: mbedtls-util
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: utils
+SourceDateEpoch: 1744667559
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: aarch64_cortex-a53
+Installed-Size: 33501
+Filename: mbedtls-util_2.28.10-1_aarch64_cortex-a53.ipk
+Size: 34113
+SHA256sum: 79369d1cbdde0e7622bc4c8993d8de8b4cba8069115d67a40d081d0998b5a21b
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains mbedtls helper programs for private key and
+ CSR generation (gen_key, cert_req)
+
 Package: ocserv
 Version: 1.3.0-9
 Depends: libc, libgnutls, certtool, libncurses6, libreadline8, libprotobuf-c, libev, kmod-tun
@@ -68,13 +109,13 @@ License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
 Require-User: ocserv=72:ocserv=72
-SourceDateEpoch: 1731445174
+SourceDateEpoch: 1731535112
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 286880
+Installed-Size: 286881
 Filename: ocserv_1.3.0-9_aarch64_cortex-a53.ipk
-Size: 286716
-SHA256sum: edecc49b48a4822e3b191c69653d603e8445e877600fd47818dc89a13b03c0a9
+Size: 286687
+SHA256sum: a56b0db892315c8ef143a945717e6a4d4b8edcb7e7f150e5e38aef6f05e7fcd2
 Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
  a secure, small, fast and configurable VPN server. It implements the
  OpenConnect SSL VPN protocol, and has also (currently experimental)
