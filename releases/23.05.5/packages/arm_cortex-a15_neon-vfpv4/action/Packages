@@ -59,6 +59,47 @@ Size: 145061
 SHA256sum: 217e40626eca7c5eb139522b9cc39bfae6cc62a357728454d77a93c56fc96127
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
+Package: libmbedtls12
+Version: 2.28.10-1
+Depends: libc
+Provides: libmbedtls
+Source: /feed/packages/mbedtls-update
+SourceName: libmbedtls
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: libs
+SourceDateEpoch: 1744667559
+ABIVersion: 12
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 209602
+Filename: libmbedtls12_2.28.10-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 210238
+SHA256sum: 54b98dce8f6b45d911a48d056a522a54e1fbd32819a4044b5b4eb8bdcf25d1ce
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: mbedtls-util
+Version: 2.28.10-1
+Depends: libc, libmbedtls12
+Source: /feed/packages/mbedtls-update
+SourceName: mbedtls-util
+License: GPL-2.0-or-later
+LicenseFiles: gpl-2.0.txt
+Section: utils
+SourceDateEpoch: 1744667559
+CPE-ID: cpe:/a:arm:mbed_tls
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 32413
+Filename: mbedtls-util_2.28.10-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 33288
+SHA256sum: 8ca4aba59223dab90e214f4c53a221e2a8940fd369df78612125cfae6ac65008
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains mbedtls helper programs for private key and
+ CSR generation (gen_key, cert_req)
+
 Package: ocserv
 Version: 1.3.0-9
 Depends: libc, libgnutls, certtool, libncurses6, libreadline8, libprotobuf-c, libev, kmod-tun
@@ -68,13 +109,13 @@ License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
 Require-User: ocserv=72:ocserv=72
-SourceDateEpoch: 1731445174
+SourceDateEpoch: 1731535112
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 258362
 Filename: ocserv_1.3.0-9_arm_cortex-a15_neon-vfpv4.ipk
-Size: 258726
-SHA256sum: 890af794c52cd8b3c5af89ef1bd62457f4dca42189d844e76059cc6525a3515c
+Size: 258863
+SHA256sum: 6182b88399ee1bd096262fbf2e8a4d81e89c92a45add2c8dd17340eed11d77ce
 Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
  a secure, small, fast and configurable VPN server. It implements the
  OpenConnect SSL VPN protocol, and has also (currently experimental)
