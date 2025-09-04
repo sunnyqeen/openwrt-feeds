@@ -1,0 +1,24 @@
+Package: ocserv
+Version: 1.3.0-r9
+Depends: libc, libgnutls, certtool, libncurses6, libreadline8, libprotobuf-c, libev, kmod-tun
+Source: /feed/packages/ocserv-update
+SourceName: ocserv
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+Require-User: ocserv=72:ocserv=72
+SourceDateEpoch: 1731535112
+URL: http://www.infradead.org/ocserv/
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 645120
+Filename: ocserv_1.3.0-r9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 258738
+SHA256sum: 58e3a7f3a33461a606355cc73ab191307103c1492002096aa04126b3df7fcf93
+Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
+ a secure, small, fast and configurable VPN server. It implements the
+ OpenConnect SSL VPN protocol, and has also (currently experimental)
+ compatibility with clients using the AnyConnect SSL VPN protocol. The
+ OpenConnect VPN protocol uses the standard IETF security protocols such
+ as TLS 1.2, and Datagram TLS to provide the secure VPN service.
+
