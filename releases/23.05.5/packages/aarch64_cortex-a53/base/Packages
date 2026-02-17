@@ -1,5 +1,5 @@
 Package: ca-bundle
-Version: 20230311-1
+Version: 20241223-1
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
@@ -7,16 +7,16 @@ SourceName: ca-bundle
 License: GPL-2.0-or-later MPL-2.0
 LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1720645656
+SourceDateEpoch: 1747951669
 Architecture: all
-Installed-Size: 123475
-Filename: ca-bundle_20230311-1_all.ipk
-Size: 124299
-SHA256sum: ed00aebe016a20eaca83e6acb6b44f0604ba918865d1b029711f345e072a6778
+Installed-Size: 132261
+Filename: ca-bundle_20241223-1_all.ipk
+Size: 133125
+SHA256sum: 9cfd98caa9192855bae5ba271abd11b1e75f902d77ffc7c434d38a78d3a77beb
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
-Version: 20230311-1
+Version: 20241223-1
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
@@ -24,66 +24,13 @@ SourceName: ca-certificates
 License: GPL-2.0-or-later MPL-2.0
 LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1720645656
+SourceDateEpoch: 1747951669
 Architecture: all
-Installed-Size: 133842
-Filename: ca-certificates_20230311-1_all.ipk
-Size: 134604
-SHA256sum: 5f51a2ebce8cd170e68ea848a63fbee87f00ba7f42dd870bf5f4568e075f6168
+Installed-Size: 143729
+Filename: ca-certificates_20241223-1_all.ipk
+Size: 144482
+SHA256sum: 4e6dd9291d28c0334fe3ed4b23526f4cdf264277413b1045badf623f085b4042
 Description:  System CA certificates
-
-Package: jansson4
-Version: 2.14-3
-Depends: libc
-Provides: jansson
-Source: feeds/base/package/libs/jansson
-SourceName: jansson
-License: MIT
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1679419702
-ABIVersion: 4
-CPE-ID: cpe:/a:jansson_project:jansson
-Architecture: aarch64_cortex-a53
-Installed-Size: 24896
-Filename: jansson4_2.14-3_aarch64_cortex-a53.ipk
-Size: 25581
-SHA256sum: ca16d89b96861b804298417abb4054d1a500c9ebbc855a620332c5c69ef58130
-Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
-
-Package: jshn
-Version: 2023-05-23-75a3b870-1
-Depends: libc, libjson-c5, libubox20230523, libblobmsg-json20230523
-Source: feeds/base/package/libs/libubox
-SourceName: jshn
-License: ISC
-Section: utils
-SourceDateEpoch: 1686600618
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 7119
-Filename: jshn_2023-05-23-75a3b870-1_aarch64_cortex-a53.ipk
-Size: 7755
-SHA256sum: a2cbfac35015a1e7236d3fd7f81fac658d39bfba9a3b9cd1a11bd0e5e9696f26
-Description:  Library for parsing and generating JSON from shell scripts
-
-Package: libblobmsg-json20230523
-Version: 2023-05-23-75a3b870-1
-Depends: libc, libjson-c5, libubox20230523
-Provides: libblobmsg-json
-Source: feeds/base/package/libs/libubox
-SourceName: libblobmsg-json
-License: ISC
-Section: libs
-SourceDateEpoch: 1686600618
-ABIVersion: 20230523
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 4379
-Filename: libblobmsg-json20230523_2023-05-23-75a3b870-1_aarch64_cortex-a53.ipk
-Size: 5006
-SHA256sum: 11365b7691f23d524cb39595173edeea5341a8254cadbd8d1687b6b0b2ca4a0b
-Description:  blobmsg <-> json conversion library
 
 Package: libevent2-7
 Version: 2.1.12-1
@@ -259,67 +206,6 @@ SHA256sum: 3865b885b1ba316bb9b0e647f9110f1e1e9be10e59a5f850deb9a702b1be2806
 Description:  GMP is a free library for arbitrary precision arithmetic, operating on
  signed integers, rational numbers, and floating point numbers.
 
-Package: libjson-c5
-Version: 0.16-3
-Depends: libc
-Provides: libjson-c
-Source: feeds/base/package/libs/libjson-c
-SourceName: libjson-c
-License: MIT
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1720283474
-ABIVersion: 5
-CPE-ID: cpe:/a:json-c:json-c
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 28901
-Filename: libjson-c5_0.16-3_aarch64_cortex-a53.ipk
-Size: 29704
-SHA256sum: 399909892267e86778ab3c6876555e5f3d8feff65594fe4f52b70b9587a979fe
-Description:  This package contains a library for javascript object notation backends.
-
-Package: libjson-script20230523
-Version: 2023-05-23-75a3b870-1
-Depends: libc, libubox20230523
-Provides: libjson-script
-Source: feeds/base/package/libs/libubox
-SourceName: libjson-script
-License: ISC
-Section: utils
-SourceDateEpoch: 1686600618
-ABIVersion: 20230523
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 5671
-Filename: libjson-script20230523_2023-05-23-75a3b870-1_aarch64_cortex-a53.ipk
-Size: 6287
-SHA256sum: 9a249b5475a500063f2ebe0cecbc1f41730cfd99f730a864ab2951513b95f30e
-Description:  Minimalistic JSON based scripting engine
-
-Package: liblua5.1.5
-Version: 5.1.5-11
-Depends: libc
-Provides: liblua
-Source: feeds/base/package/utils/lua
-SourceName: liblua
-License: MIT
-LicenseFiles: COPYRIGHT
-Section: libs
-SourceDateEpoch: 1714513571
-ABIVersion: 5.1.5
-CPE-ID: cpe:/a:lua:lua
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: aarch64_cortex-a53
-Installed-Size: 78140
-Filename: liblua5.1.5_5.1.5-11_aarch64_cortex-a53.ipk
-Size: 78983
-SHA256sum: cd159c295a6c2f7d72d963c67523fa145abcd398583ac5870f5c98a5d098c07e
-Description:  Lua is a powerful light-weight programming language designed for extending 
- applications. Lua is also frequently used as a general-purpose, stand-alone 
- language. Lua is free software.
- This package contains the Lua shared libraries, needed by other programs.
-
 Package: libmnl0
 Version: 1.0.5-1
 Depends: libc
@@ -395,30 +281,6 @@ Size: 187222
 SHA256sum: 5ae9ab87ab0f68fb6968fa911400535bd683de108a5bed51433d1bb16b8f70cd
 Description:  Terminal handling library (Unicode)
 
-Package: libnetfilter-conntrack3
-Version: 1.0.9-2
-Depends: libc, libnfnetlink0, kmod-nf-conntrack-netlink, libmnl0
-Provides: libnetfilter-conntrack
-Source: feeds/base/package/libs/libnetfilter-conntrack
-SourceName: libnetfilter-conntrack
-License: GPL-2.0-or-later
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1695847021
-ABIVersion: 3
-CPE-ID: cpe:/a:netfilter:libnetfilter_conntrack
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: aarch64_cortex-a53
-Installed-Size: 39676
-Filename: libnetfilter-conntrack3_1.0.9-2_aarch64_cortex-a53.ipk
-Size: 40553
-SHA256sum: ff47b14be834f6563f639f2916370e9ec3224bde856ec7a6a6cbf0d25ca1ccf6
-Description:  libnetfilter_conntrack is a userspace library providing a programming
- interface (API) to the in-kernel connection tracking state table. The
- library libnetfilter_conntrack has been previously known as
- libnfnetlink_conntrack and libctnetlink. This library is currently
- used by conntrack-tools among many other applications.
-
 Package: libnettle8
 Version: 3.9.1-1
 Depends: libc, libgmp10
@@ -437,160 +299,6 @@ Filename: libnettle8_3.9.1-1_aarch64_cortex-a53.ipk
 Size: 356338
 SHA256sum: 2447e0c9c316797ad99d5ec1ab09e5235e4848514888920cc8f455bb1b5d464b
 Description:  GNU crypto library
-
-Package: libnfnetlink0
-Version: 1.0.2-1
-Depends: libc
-Provides: libnfnetlink
-Source: feeds/base/package/libs/libnfnetlink
-SourceName: libnfnetlink
-License: GPL-2.0+
-Section: libs
-SourceDateEpoch: 1662478605
-ABIVersion: 0
-CPE-ID: cpe:/a:netfilter:libnfnetlink
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: aarch64_cortex-a53
-Installed-Size: 10682
-Filename: libnfnetlink0_1.0.2-1_aarch64_cortex-a53.ipk
-Size: 11464
-SHA256sum: da9479bc0ca57a5d1df8dc05b4139bc3370eaae97a3946b361e2f0c0570f6f3d
-Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
- It provides a generic messaging infrastructure for in-kernel netfilter subsystems
- (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
- and/or management tools in userspace.
-
-Package: libnftnl11
-Version: 1.2.6-1
-Depends: libc, libmnl0
-Provides: libnftnl
-Source: feeds/base/package/libs/libnftnl
-SourceName: libnftnl
-License: GPL-2.0-or-later
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1689833051
-ABIVersion: 11
-CPE-ID: cpe:/a:netfilter:libnftnl
-Maintainer: Steven Barth <steven@midlink.org>
-Architecture: aarch64_cortex-a53
-Installed-Size: 64520
-Filename: libnftnl11_1.2.6-1_aarch64_cortex-a53.ipk
-Size: 65221
-SHA256sum: e212ed38a92644501fe5cf27b8c109ea7447e94df2d0c7bb80d17c00423bdcda
-Description:  libnftnl is a userspace library providing a low-level netlink
- programming interface (API) to the in-kernel nf_tables subsystem.
-
-Package: libopenssl-afalg
-Version: 3.0.15-1
-Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
-Source: feeds/base/package/libs/openssl
-SourceName: libopenssl-afalg
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1726326260
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 5715
-Filename: libopenssl-afalg_3.0.15-1_aarch64_cortex-a53.ipk
-Size: 6840
-SHA256sum: b1c623fe9ac9d92301dbcd27a398724372237b328cc0130cba208e8340dc68aa
-Description:  This package adds an engine that enables hardware acceleration
- through the AF_ALG kernel interface.
- See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
- and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
- The engine_id is "afalg"
-
-Package: libopenssl-conf
-Version: 3.0.15-1
-Depends: libc, libopenssl3
-Source: feeds/base/package/libs/openssl
-SourceName: libopenssl-conf
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1726326260
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 5460
-Filename: libopenssl-conf_3.0.15-1_aarch64_cortex-a53.ipk
-Size: 6475
-SHA256sum: 068fd21c5116782ae19625f27a257b6dbaec4ad7e3c25363713cd0e2bf7ba91d
-Description:  The OpenSSL Project is a collaborative effort to develop a robust,
- commercial-grade, full-featured, and Open Source toolkit implementing the
- Transport Layer Security (TLS) protocol as well as a full-strength
- general-purpose cryptography library.
- This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
-
-Package: libopenssl-devcrypto
-Version: 3.0.15-1
-Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
-Source: feeds/base/package/libs/openssl
-SourceName: libopenssl-devcrypto
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1726326260
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 9036
-Filename: libopenssl-devcrypto_3.0.15-1_aarch64_cortex-a53.ipk
-Size: 10113
-SHA256sum: 8404a12a71f97a28460fdb6ae9da56a83e1e24eb045658d015dfa0364bc2ed43
-Description:  This package adds an engine that enables hardware acceleration
- through the /dev/crypto kernel interface.
- See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
- and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
- The engine_id is "devcrypto"
-
-Package: libopenssl-legacy
-Version: 3.0.15-1
-Depends: libc, libopenssl3, libopenssl-conf
-Source: feeds/base/package/libs/openssl
-SourceName: libopenssl-legacy
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1726326260
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 32808
-Filename: libopenssl-legacy_3.0.15-1_aarch64_cortex-a53.ipk
-Size: 33761
-SHA256sum: 7e4c7477917f8796ff86ccc064c4f944bd53196014a9260c1e4a0ad61b97c53a
-Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
- have been deemed legacy. Such algorithms have commonly fallen out of use, have
- been deemed insecure by the cryptography community, or something similar.  See
- https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
-
-Package: libopenssl3
-Version: 3.0.15-1
-Depends: libc
-Provides: libopenssl
-Source: feeds/base/package/libs/openssl
-SourceName: libopenssl
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1726326260
-ABIVersion: 3
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 1770210
-Filename: libopenssl3_3.0.15-1_aarch64_cortex-a53.ipk
-Size: 1759977
-SHA256sum: 1fd54722bb8cbe3cecd5f0372bb2f7f068171be97dce975b9cb53211d1aad2a8
-Description:  The OpenSSL Project is a collaborative effort to develop a robust,
- commercial-grade, full-featured, and Open Source toolkit implementing the
- Transport Layer Security (TLS) protocol as well as a full-strength
- general-purpose cryptography library.
- This package contains the OpenSSL shared libraries, needed by other programs.
 
 Package: libreadline8
 Version: 8.2-1
@@ -616,194 +324,6 @@ Description:  The Readline library provides a set of functions for use by applic
  lines, to recall and perhaps reedit those lines, and perform csh-like
  history expansion on previous commands.
 
-Package: libubox-lua
-Version: 2023-05-23-75a3b870-1
-Depends: libc, libubox20230523, liblua5.1.5
-Source: feeds/base/package/libs/libubox
-SourceName: libubox-lua
-License: ISC
-Section: libs
-SourceDateEpoch: 1686600618
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 4551
-Filename: libubox-lua_2023-05-23-75a3b870-1_aarch64_cortex-a53.ipk
-Size: 5151
-SHA256sum: 57ac13f77417a8a43dc8d041445febc405ab360a1dfd31498b337d9469c5bcd9
-Description:  Lua binding for the OpenWrt Basic utility library
-
-Package: libubox20230523
-Version: 2023-05-23-75a3b870-1
-Depends: libc
-Provides: libubox
-Source: feeds/base/package/libs/libubox
-SourceName: libubox
-License: ISC
-Section: libs
-SourceDateEpoch: 1686600618
-ABIVersion: 20230523
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 24498
-Filename: libubox20230523_2023-05-23-75a3b870-1_aarch64_cortex-a53.ipk
-Size: 25152
-SHA256sum: 2b0a9ae137e87c169fdb78086dc37d27ff365800665ecc392fc2bbcf830e3146
-Description:  Basic utility library
-
-Package: libubus-lua
-Version: 2023-06-05-f787c97b-1
-Depends: libc, libubus20230605, liblua5.1.5
-Source: feeds/base/package/system/ubus
-SourceName: libubus-lua
-License: LGPL-2.1
-Section: libs
-SourceDateEpoch: 1695039918
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 7370
-Filename: libubus-lua_2023-06-05-f787c97b-1_aarch64_cortex-a53.ipk
-Size: 8103
-SHA256sum: ddda85567ea2b4025fdcba1fbe280f8f51c6ef2462de7f93daa1dfe0434f4aa5
-Description:  Lua binding for the OpenWrt RPC client
-
-Package: libubus20230605
-Version: 2023-06-05-f787c97b-1
-Depends: libc, libubox20230523
-Provides: libubus
-Source: feeds/base/package/system/ubus
-SourceName: libubus
-License: LGPL-2.1
-Section: libs
-SourceDateEpoch: 1695039918
-ABIVersion: 20230605
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 11596
-Filename: libubus20230605_2023-06-05-f787c97b-1_aarch64_cortex-a53.ipk
-Size: 12249
-SHA256sum: f5799e16c3ff05d2ce0db9f219ad92418cb64ed918538d5d084a66dcd9be5ad4
-Description:  OpenWrt RPC client library
-
-Package: lua-examples
-Version: 5.1.5-11
-Depends: libc, lua
-Source: feeds/base/package/utils/lua
-SourceName: lua-examples
-License: MIT
-LicenseFiles: COPYRIGHT
-Section: lang
-SourceDateEpoch: 1714513571
-CPE-ID: cpe:/a:lua:lua
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: aarch64_cortex-a53
-Installed-Size: 5290
-Filename: lua-examples_5.1.5-11_aarch64_cortex-a53.ipk
-Size: 6179
-SHA256sum: d3478bba159dd04817956a12fcf3a5f403f3203e6d633e70146df72bd6908d87
-Description:  Lua is a powerful light-weight programming language designed for extending 
- applications. Lua is also frequently used as a general-purpose, stand-alone 
- language. Lua is free software.
- This package contains Lua language examples.
-
-Package: lua
-Version: 5.1.5-11
-Depends: libc, liblua5.1.5
-Source: feeds/base/package/utils/lua
-SourceName: lua
-License: MIT
-LicenseFiles: COPYRIGHT
-Section: lang
-SourceDateEpoch: 1714513571
-CPE-ID: cpe:/a:lua:lua
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: aarch64_cortex-a53
-Installed-Size: 5171
-Filename: lua_5.1.5-11_aarch64_cortex-a53.ipk
-Size: 5892
-SHA256sum: 042a26a3318ce3b2492a9574c99824df55e06dab97cbae740003b9b28ff7e853
-Description:  Lua is a powerful light-weight programming language designed for extending 
- applications. Lua is also frequently used as a general-purpose, stand-alone 
- language. Lua is free software.
- This package contains the Lua language interpreter.
-
-Package: luac
-Version: 5.1.5-11
-Depends: libc, liblua5.1.5
-Source: feeds/base/package/utils/lua
-SourceName: luac
-License: MIT
-LicenseFiles: COPYRIGHT
-Section: lang
-SourceDateEpoch: 1714513571
-CPE-ID: cpe:/a:lua:lua
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: aarch64_cortex-a53
-Installed-Size: 5649
-Filename: luac_5.1.5-11_aarch64_cortex-a53.ipk
-Size: 6471
-SHA256sum: ffe0e3860416ba4c74cff4772321889885b87250229c0d87b881f8d91b183d95
-Description:  Lua is a powerful light-weight programming language designed for extending 
- applications. Lua is also frequently used as a general-purpose, stand-alone 
- language. Lua is free software.
- This package contains the Lua language compiler.
-
-Package: nftables-json
-Version: 1.0.8-1
-Depends: libc, kmod-nft-core, libnftnl11, jansson4
-Provides: nftables
-Source: feeds/base/package/network/utils/nftables
-SourceName: nftables-json
-License: GPL-2.0
-LicenseFiles: COPYING
-Section: net
-SourceDateEpoch: 1689833051
-Architecture: aarch64_cortex-a53
-Installed-Size: 307497
-Filename: nftables-json_1.0.8-1_aarch64_cortex-a53.ipk
-Size: 307275
-SHA256sum: cec6ac95838096d2c8cedcc7a9dd5d06747bcb7018aa6b20c257fe41eb2bf540
-Description:  nftables userspace utility with JSON support
-
-Package: nftables-nojson
-Version: 1.0.8-1
-Depends: libc, kmod-nft-core, libnftnl11
-Conflicts: nftables-json
-Provides: nftables
-Source: feeds/base/package/network/utils/nftables
-SourceName: nftables-nojson
-License: GPL-2.0
-LicenseFiles: COPYING
-Section: net
-SourceDateEpoch: 1689833051
-Architecture: aarch64_cortex-a53
-Installed-Size: 272510
-Filename: nftables-nojson_1.0.8-1_aarch64_cortex-a53.ipk
-Size: 272180
-SHA256sum: 5f8cdfdd045442c375ef7280b4a908f5b88b1eee956f18e788ff0cb3669fef91
-Description:  nftables userspace utility no JSON support
-
-Package: openssl-util
-Version: 3.0.15-1
-Depends: libc, libopenssl3, libopenssl-conf
-Source: feeds/base/package/libs/openssl
-SourceName: openssl-util
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: utils
-SourceDateEpoch: 1726326260
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 304256
-Filename: openssl-util_3.0.15-1_aarch64_cortex-a53.ipk
-Size: 303784
-SHA256sum: a44798c853c8bfb53d81ffc59b15295c9484db9dbcf56604c2283e4b776b0343
-Description:  The OpenSSL Project is a collaborative effort to develop a robust,
- commercial-grade, full-featured, and Open Source toolkit implementing the
- Transport Layer Security (TLS) protocol as well as a full-strength
- general-purpose cryptography library.
- This package contains the OpenSSL command-line utility.
-
 Package: terminfo
 Version: 6.4-2
 Depends: libc
@@ -820,39 +340,6 @@ Filename: terminfo_6.4-2_aarch64_cortex-a53.ipk
 Size: 8883
 SHA256sum: e562cfa64106705fb6c12c1c1583b6cfb0c6c952184707ad15b935e8dcfc76bb
 Description:  Terminal Info Database (ncurses)
-
-Package: ubus
-Version: 2023-06-05-f787c97b-1
-Depends: libc, libubus20230605, libblobmsg-json20230523, ubusd
-Source: feeds/base/package/system/ubus
-SourceName: ubus
-License: LGPL-2.1
-Section: base
-SourceDateEpoch: 1695039918
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 6790
-Filename: ubus_2023-06-05-f787c97b-1_aarch64_cortex-a53.ipk
-Size: 7551
-SHA256sum: 3769ff51c00f43f2b0930b03981bbedd742ffc8bcdcf5b18aa1f93e0690e4378
-Description:  OpenWrt RPC client utility
-
-Package: ubusd
-Version: 2023-06-05-f787c97b-1
-Depends: libc, libubox20230523, libblobmsg-json20230523
-Source: feeds/base/package/system/ubus
-SourceName: ubusd
-License: LGPL-2.1
-Section: base
-Require-User: ubus=81:ubus=81
-SourceDateEpoch: 1695039918
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 13442
-Filename: ubusd_2023-06-05-f787c97b-1_aarch64_cortex-a53.ipk
-Size: 14074
-SHA256sum: 7a171eb9b49923f13533441d3837818fa62420c4a1e549a8bfa9e76c01a4b790
-Description:  OpenWrt RPC daemon
 
 Package: zlib-dev
 Version: 1.2.13-1

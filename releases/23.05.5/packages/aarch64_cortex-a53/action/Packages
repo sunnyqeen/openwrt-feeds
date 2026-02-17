@@ -1,104 +1,113 @@
-Package: dnsmasq-dhcpv6
-Version: 2.90-26
-Depends: libc, libubus20230605, libpcre
-Provides: dnsmasq
-Source: /feed/packages/dnsmasq-regex-openwrt
-SourceName: dnsmasq-dhcpv6
-License: GPL-2.0
-LicenseFiles: COPYING
-Section: net
-Require-User: dnsmasq=453:dnsmasq=453
-SourceDateEpoch: 1711328670
-CPE-ID: cpe:/a:thekelleys:dnsmasq
-Architecture: aarch64_cortex-a53
-Installed-Size: 178509
-Filename: dnsmasq-dhcpv6_2.90-26_aarch64_cortex-a53.ipk
-Size: 179093
-SHA256sum: 14091963a02ae9da1afadaf1f28a846b4d5c3057010d84f35069f131a6aa52b9
-Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
- 
- This is a variant with DHCPv6 support
-
-Package: dnsmasq-full
-Version: 2.90-26
-Depends: libc, libubus20230605, libpcre, libnettle8, libnetfilter-conntrack3, nftables-json
-Provides: dnsmasq
-Source: /feed/packages/dnsmasq-regex-openwrt
-SourceName: dnsmasq-full
-License: GPL-2.0
-LicenseFiles: COPYING
-Section: net
-Require-User: dnsmasq=453:dnsmasq=453
-SourceDateEpoch: 1711328670
-CPE-ID: cpe:/a:thekelleys:dnsmasq
-Architecture: aarch64_cortex-a53
-Installed-Size: 206185
-Filename: dnsmasq-full_2.90-26_aarch64_cortex-a53.ipk
-Size: 206732
-SHA256sum: b2a0602fb27ae6da2de84ec8bb7b390d363bb0b91404d5029dd1c2b86ab61fb2
-Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
- 
- This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
- and nftset, Conntrack support & NO_ID enabled by default.
-
-Package: dnsmasq
-Version: 2.90-26
-Depends: libc, libubus20230605, libpcre
-Source: /feed/packages/dnsmasq-regex-openwrt
-SourceName: dnsmasq
-License: GPL-2.0
-LicenseFiles: COPYING
-Section: net
-Require-User: dnsmasq=453:dnsmasq=453
-SourceDateEpoch: 1711328670
-CPE-ID: cpe:/a:thekelleys:dnsmasq
-Architecture: aarch64_cortex-a53
-Installed-Size: 151002
-Filename: dnsmasq_2.90-26_aarch64_cortex-a53.ipk
-Size: 151308
-SHA256sum: d09a80da8c3f619b5b6eea4a3b43b6f238e5ea366657c29389ba04d3742c6422
-Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
-
-Package: libmbedtls12
-Version: 2.28.10-1
-Depends: libc
-Provides: libmbedtls
-Source: /feed/packages/mbedtls-update
-SourceName: libmbedtls
-License: GPL-2.0-or-later
-LicenseFiles: gpl-2.0.txt
+Package: libopenssl-afalg
+Version: 3.0.19-1
+Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
+Source: /feed/packages/openssl-update
+SourceName: libopenssl-afalg
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1744667559
-ABIVersion: 12
-CPE-ID: cpe:/a:arm:mbed_tls
+SourceDateEpoch: 1771356845
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 256672
-Filename: libmbedtls12_2.28.10-1_aarch64_cortex-a53.ipk
-Size: 256923
-SHA256sum: 25150dc3161163264cab058cae07160c4d0f9d76744f1ffa4c2de370f39b8241
-Description:  The aim of the mbedtls project is to provide a quality, open-source
- cryptographic library written in C and targeted at embedded systems.
- This package contains the mbedtls library.
+Installed-Size: 5720
+Filename: libopenssl-afalg_3.0.19-1_aarch64_cortex-a53.ipk
+Size: 6840
+SHA256sum: 239903a1375bbe335a7f2aa2dffe87df4502116bdc545bacef1652a1459dbb9f
+Description:  This package adds an engine that enables hardware acceleration
+ through the AF_ALG kernel interface.
+ See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
+ and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
+ The engine_id is "afalg"
 
-Package: mbedtls-util
-Version: 2.28.10-1
-Depends: libc, libmbedtls12
-Source: /feed/packages/mbedtls-update
-SourceName: mbedtls-util
-License: GPL-2.0-or-later
-LicenseFiles: gpl-2.0.txt
-Section: utils
-SourceDateEpoch: 1744667559
-CPE-ID: cpe:/a:arm:mbed_tls
+Package: libopenssl-conf
+Version: 3.0.19-1
+Depends: libc, libopenssl3
+Source: /feed/packages/openssl-update
+SourceName: libopenssl-conf
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1771356845
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 33501
-Filename: mbedtls-util_2.28.10-1_aarch64_cortex-a53.ipk
-Size: 34113
-SHA256sum: 79369d1cbdde0e7622bc4c8993d8de8b4cba8069115d67a40d081d0998b5a21b
-Description:  The aim of the mbedtls project is to provide a quality, open-source
- cryptographic library written in C and targeted at embedded systems.
- This package contains mbedtls helper programs for private key and
- CSR generation (gen_key, cert_req)
+Installed-Size: 5458
+Filename: libopenssl-conf_3.0.19-1_aarch64_cortex-a53.ipk
+Size: 6471
+SHA256sum: f999737f7052efe91a2333c82aba7ed53c55bc1500db7152d984a7e2e8e6291a
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
+
+Package: libopenssl-devcrypto
+Version: 3.0.19-1
+Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
+Source: /feed/packages/openssl-update
+SourceName: libopenssl-devcrypto
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1771356845
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9032
+Filename: libopenssl-devcrypto_3.0.19-1_aarch64_cortex-a53.ipk
+Size: 10109
+SHA256sum: c8713146c408261f434841d93b28d777ccc9a270d15efd6df6637ee7e094cb43
+Description:  This package adds an engine that enables hardware acceleration
+ through the /dev/crypto kernel interface.
+ See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
+ and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
+ The engine_id is "devcrypto"
+
+Package: libopenssl-legacy
+Version: 3.0.19-1
+Depends: libc, libopenssl3, libopenssl-conf
+Source: /feed/packages/openssl-update
+SourceName: libopenssl-legacy
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1771356845
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 32797
+Filename: libopenssl-legacy_3.0.19-1_aarch64_cortex-a53.ipk
+Size: 33720
+SHA256sum: 36fb79a99d7866bf8e6e79602b35d4555890d49cbaf734b1cb010d1be84c1549
+Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
+ have been deemed legacy. Such algorithms have commonly fallen out of use, have
+ been deemed insecure by the cryptography community, or something similar.  See
+ https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
+
+Package: libopenssl3
+Version: 3.0.19-1
+Depends: libc
+Provides: libopenssl
+Source: /feed/packages/openssl-update
+SourceName: libopenssl
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1771356845
+ABIVersion: 3
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1773594
+Filename: libopenssl3_3.0.19-1_aarch64_cortex-a53.ipk
+Size: 1763403
+SHA256sum: 2897676be08634c5cd1ad67c4b4b518989b9151bab9a4fb0702e02eef9be00b9
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
 
 Package: ocserv
 Version: 1.3.0-9
@@ -122,4 +131,26 @@ Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is t
  compatibility with clients using the AnyConnect SSL VPN protocol. The
  OpenConnect VPN protocol uses the standard IETF security protocols such
  as TLS 1.2, and Datagram TLS to provide the secure VPN service.
+
+Package: openssl-util
+Version: 3.0.19-1
+Depends: libc, libopenssl3, libopenssl-conf
+Source: /feed/packages/openssl-update
+SourceName: openssl-util
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: utils
+SourceDateEpoch: 1771356845
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 305358
+Filename: openssl-util_3.0.19-1_aarch64_cortex-a53.ipk
+Size: 304911
+SHA256sum: a0f20a730c945023ed1d52a2cb1e1ebd468acca4e4739afd2540cf37f9c19b04
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
 
