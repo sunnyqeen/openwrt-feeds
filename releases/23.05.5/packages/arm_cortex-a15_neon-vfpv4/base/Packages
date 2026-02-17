@@ -1,5 +1,5 @@
 Package: ca-bundle
-Version: 20230311-1
+Version: 20241223-1
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
@@ -7,16 +7,16 @@ SourceName: ca-bundle
 License: GPL-2.0-or-later MPL-2.0
 LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1720645656
+SourceDateEpoch: 1747951669
 Architecture: all
-Installed-Size: 123475
-Filename: ca-bundle_20230311-1_all.ipk
-Size: 124299
-SHA256sum: ed00aebe016a20eaca83e6acb6b44f0604ba918865d1b029711f345e072a6778
+Installed-Size: 132261
+Filename: ca-bundle_20241223-1_all.ipk
+Size: 133125
+SHA256sum: 9cfd98caa9192855bae5ba271abd11b1e75f902d77ffc7c434d38a78d3a77beb
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
-Version: 20230311-1
+Version: 20241223-1
 Depends: libc
 Provides: ca-certs
 Source: feeds/base/package/system/ca-certificates
@@ -24,66 +24,13 @@ SourceName: ca-certificates
 License: GPL-2.0-or-later MPL-2.0
 LicenseFiles: debian/copyright
 Section: base
-SourceDateEpoch: 1720645656
+SourceDateEpoch: 1747951669
 Architecture: all
-Installed-Size: 133842
-Filename: ca-certificates_20230311-1_all.ipk
-Size: 134604
-SHA256sum: 5f51a2ebce8cd170e68ea848a63fbee87f00ba7f42dd870bf5f4568e075f6168
+Installed-Size: 143729
+Filename: ca-certificates_20241223-1_all.ipk
+Size: 144482
+SHA256sum: 4e6dd9291d28c0334fe3ed4b23526f4cdf264277413b1045badf623f085b4042
 Description:  System CA certificates
-
-Package: jansson4
-Version: 2.14-3
-Depends: libc
-Provides: jansson
-Source: feeds/base/package/libs/jansson
-SourceName: jansson
-License: MIT
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1679419702
-ABIVersion: 4
-CPE-ID: cpe:/a:jansson_project:jansson
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 19490
-Filename: jansson4_2.14-3_arm_cortex-a15_neon-vfpv4.ipk
-Size: 20255
-SHA256sum: 4cc4058e595bfb0a596057d23ea56115a326aee1f413a69bf498d0316adf6148
-Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
-
-Package: jshn
-Version: 2023-05-23-75a3b870-1
-Depends: libc, libjson-c5, libubox20230523, libblobmsg-json20230523
-Source: feeds/base/package/libs/libubox
-SourceName: jshn
-License: ISC
-Section: utils
-SourceDateEpoch: 1686600618
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 6500
-Filename: jshn_2023-05-23-75a3b870-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 7315
-SHA256sum: b77253f562a04ecc48af12cf663e14423ede022a62274a0c52309acf9fae59f8
-Description:  Library for parsing and generating JSON from shell scripts
-
-Package: libblobmsg-json20230523
-Version: 2023-05-23-75a3b870-1
-Depends: libc, libjson-c5, libubox20230523
-Provides: libblobmsg-json
-Source: feeds/base/package/libs/libubox
-SourceName: libblobmsg-json
-License: ISC
-Section: libs
-SourceDateEpoch: 1686600618
-ABIVersion: 20230523
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 3554
-Filename: libblobmsg-json20230523_2023-05-23-75a3b870-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 4311
-SHA256sum: 6055220dcbfc53ce57420c3291b62149fbf3691ab5c39443b8e0f6863d8f070f
-Description:  blobmsg <-> json conversion library
 
 Package: libevent2-7
 Version: 2.1.12-1
@@ -259,67 +206,6 @@ SHA256sum: 66325f9de546f6fbd4a59353c13e76c98a3280c0ee44a7e1b50eab46745d1893
 Description:  GMP is a free library for arbitrary precision arithmetic, operating on
  signed integers, rational numbers, and floating point numbers.
 
-Package: libjson-c5
-Version: 0.16-3
-Depends: libc
-Provides: libjson-c
-Source: feeds/base/package/libs/libjson-c
-SourceName: libjson-c
-License: MIT
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1720283474
-ABIVersion: 5
-CPE-ID: cpe:/a:json-c:json-c
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 23889
-Filename: libjson-c5_0.16-3_arm_cortex-a15_neon-vfpv4.ipk
-Size: 24649
-SHA256sum: bb331a203ca2176e8ce4ac7591275713f910e48798bfcb9c855c0b6396e45ff3
-Description:  This package contains a library for javascript object notation backends.
-
-Package: libjson-script20230523
-Version: 2023-05-23-75a3b870-1
-Depends: libc, libubox20230523
-Provides: libjson-script
-Source: feeds/base/package/libs/libubox
-SourceName: libjson-script
-License: ISC
-Section: utils
-SourceDateEpoch: 1686600618
-ABIVersion: 20230523
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 4244
-Filename: libjson-script20230523_2023-05-23-75a3b870-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 5014
-SHA256sum: ffabfc64c6c55ce81edae19d74fd61be0bdedd11e3f71647daa58950b721f61b
-Description:  Minimalistic JSON based scripting engine
-
-Package: liblua5.1.5
-Version: 5.1.5-11
-Depends: libc
-Provides: liblua
-Source: feeds/base/package/utils/lua
-SourceName: liblua
-License: MIT
-LicenseFiles: COPYRIGHT
-Section: libs
-SourceDateEpoch: 1714513571
-ABIVersion: 5.1.5
-CPE-ID: cpe:/a:lua:lua
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 60696
-Filename: liblua5.1.5_5.1.5-11_arm_cortex-a15_neon-vfpv4.ipk
-Size: 61452
-SHA256sum: 3a068038878ce5c5a2982408fb8cedfea81ac348f0265f238bd56081201fccd7
-Description:  Lua is a powerful light-weight programming language designed for extending 
- applications. Lua is also frequently used as a general-purpose, stand-alone 
- language. Lua is free software.
- This package contains the Lua shared libraries, needed by other programs.
-
 Package: libmnl0
 Version: 1.0.5-1
 Depends: libc
@@ -395,30 +281,6 @@ Size: 158198
 SHA256sum: 72157830b5d13aa728c411588bc27e5349dd8001b45e2afb140643aee03077e0
 Description:  Terminal handling library (Unicode)
 
-Package: libnetfilter-conntrack3
-Version: 1.0.9-2
-Depends: libc, libnfnetlink0, kmod-nf-conntrack-netlink, libmnl0
-Provides: libnetfilter-conntrack
-Source: feeds/base/package/libs/libnetfilter-conntrack
-SourceName: libnetfilter-conntrack
-License: GPL-2.0-or-later
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1695847021
-ABIVersion: 3
-CPE-ID: cpe:/a:netfilter:libnetfilter_conntrack
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 33103
-Filename: libnetfilter-conntrack3_1.0.9-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 33982
-SHA256sum: 47516597e66f80fb1dc674514e776dba6aee6d493671e75cd648d26a4545b5ea
-Description:  libnetfilter_conntrack is a userspace library providing a programming
- interface (API) to the in-kernel connection tracking state table. The
- library libnetfilter_conntrack has been previously known as
- libnfnetlink_conntrack and libctnetlink. This library is currently
- used by conntrack-tools among many other applications.
-
 Package: libnettle8
 Version: 3.9.1-1
 Depends: libc, libgmp10
@@ -437,160 +299,6 @@ Filename: libnettle8_3.9.1-1_arm_cortex-a15_neon-vfpv4.ipk
 Size: 342087
 SHA256sum: 31ab35f60859cbc84ede2cb5f2a1605aa9674b752c013df22fbda219370d7823
 Description:  GNU crypto library
-
-Package: libnfnetlink0
-Version: 1.0.2-1
-Depends: libc
-Provides: libnfnetlink
-Source: feeds/base/package/libs/libnfnetlink
-SourceName: libnfnetlink
-License: GPL-2.0+
-Section: libs
-SourceDateEpoch: 1662478605
-ABIVersion: 0
-CPE-ID: cpe:/a:netfilter:libnfnetlink
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 9832
-Filename: libnfnetlink0_1.0.2-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 10763
-SHA256sum: 42fa6ad60fc7bf77d0c8eb02fa4ac45280373505705bf01c42e5b79024729875
-Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
- It provides a generic messaging infrastructure for in-kernel netfilter subsystems
- (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
- and/or management tools in userspace.
-
-Package: libnftnl11
-Version: 1.2.6-1
-Depends: libc, libmnl0
-Provides: libnftnl
-Source: feeds/base/package/libs/libnftnl
-SourceName: libnftnl
-License: GPL-2.0-or-later
-LicenseFiles: COPYING
-Section: libs
-SourceDateEpoch: 1689833051
-ABIVersion: 11
-CPE-ID: cpe:/a:netfilter:libnftnl
-Maintainer: Steven Barth <steven@midlink.org>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 50556
-Filename: libnftnl11_1.2.6-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 51289
-SHA256sum: 79ad1f8484c31563ebab6840398c8185b3feedaf5b944d9fd1e6851b3f87695b
-Description:  libnftnl is a userspace library providing a low-level netlink
- programming interface (API) to the in-kernel nf_tables subsystem.
-
-Package: libopenssl-afalg
-Version: 3.0.15-1
-Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
-Source: feeds/base/package/libs/openssl
-SourceName: libopenssl-afalg
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1726326260
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 5467
-Filename: libopenssl-afalg_3.0.15-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 6674
-SHA256sum: 8bc3a1915b8316879f53e998d3d8a5109a70e26ef9cde24e8533fe74173d0f35
-Description:  This package adds an engine that enables hardware acceleration
- through the AF_ALG kernel interface.
- See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
- and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
- The engine_id is "afalg"
-
-Package: libopenssl-conf
-Version: 3.0.15-1
-Depends: libc, libopenssl3
-Source: feeds/base/package/libs/openssl
-SourceName: libopenssl-conf
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1726326260
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 5460
-Filename: libopenssl-conf_3.0.15-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 6487
-SHA256sum: 6094b647903108a4821fa54abb477589eead0411c3a1393660530ee9e20ba026
-Description:  The OpenSSL Project is a collaborative effort to develop a robust,
- commercial-grade, full-featured, and Open Source toolkit implementing the
- Transport Layer Security (TLS) protocol as well as a full-strength
- general-purpose cryptography library.
- This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
-
-Package: libopenssl-devcrypto
-Version: 3.0.15-1
-Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
-Source: feeds/base/package/libs/openssl
-SourceName: libopenssl-devcrypto
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1726326260
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 8230
-Filename: libopenssl-devcrypto_3.0.15-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 9406
-SHA256sum: 823a68ff2e7552675f9fbd503921b59b9570b18358a274b095b5fe7a2784ab88
-Description:  This package adds an engine that enables hardware acceleration
- through the /dev/crypto kernel interface.
- See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
- and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
- The engine_id is "devcrypto"
-
-Package: libopenssl-legacy
-Version: 3.0.15-1
-Depends: libc, libopenssl3, libopenssl-conf
-Source: feeds/base/package/libs/openssl
-SourceName: libopenssl-legacy
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1726326260
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 24501
-Filename: libopenssl-legacy_3.0.15-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 25361
-SHA256sum: cf3f7a11af3254f76737b76ba7e46a5c6a1a183738e9059e3173fce6984f3600
-Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
- have been deemed legacy. Such algorithms have commonly fallen out of use, have
- been deemed insecure by the cryptography community, or something similar.  See
- https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
-
-Package: libopenssl3
-Version: 3.0.15-1
-Depends: libc, libatomic1
-Provides: libopenssl
-Source: feeds/base/package/libs/openssl
-SourceName: libopenssl
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1726326260
-ABIVersion: 3
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 1514115
-Filename: libopenssl3_3.0.15-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 1500123
-SHA256sum: d3f50fd7845788eed443d28b0126aa430637c343ea710fb3009c80c9e51fe314
-Description:  The OpenSSL Project is a collaborative effort to develop a robust,
- commercial-grade, full-featured, and Open Source toolkit implementing the
- Transport Layer Security (TLS) protocol as well as a full-strength
- general-purpose cryptography library.
- This package contains the OpenSSL shared libraries, needed by other programs.
 
 Package: libreadline8
 Version: 8.2-1
@@ -616,194 +324,6 @@ Description:  The Readline library provides a set of functions for use by applic
  lines, to recall and perhaps reedit those lines, and perform csh-like
  history expansion on previous commands.
 
-Package: libubox-lua
-Version: 2023-05-23-75a3b870-1
-Depends: libc, libubox20230523, liblua5.1.5
-Source: feeds/base/package/libs/libubox
-SourceName: libubox-lua
-License: ISC
-Section: libs
-SourceDateEpoch: 1686600618
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 3715
-Filename: libubox-lua_2023-05-23-75a3b870-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 4486
-SHA256sum: 063d380c8d75f596f048018457669fdc43fea1376b9b294abf9390edb4f89ede
-Description:  Lua binding for the OpenWrt Basic utility library
-
-Package: libubox20230523
-Version: 2023-05-23-75a3b870-1
-Depends: libc
-Provides: libubox
-Source: feeds/base/package/libs/libubox
-SourceName: libubox
-License: ISC
-Section: libs
-SourceDateEpoch: 1686600618
-ABIVersion: 20230523
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 18431
-Filename: libubox20230523_2023-05-23-75a3b870-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 19230
-SHA256sum: 4863957a5405ea01355c578e0c5d86d5e29a97cd0a55cb6ef85cb8be9bcc8a1f
-Description:  Basic utility library
-
-Package: libubus-lua
-Version: 2023-06-05-f787c97b-1
-Depends: libc, libubus20230605, liblua5.1.5
-Source: feeds/base/package/system/ubus
-SourceName: libubus-lua
-License: LGPL-2.1
-Section: libs
-SourceDateEpoch: 1695039918
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 6164
-Filename: libubus-lua_2023-06-05-f787c97b-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 6989
-SHA256sum: 2923008998e18add8fb57e15918b551d75fbcb9b1bbd1993e16c9f43ea358367
-Description:  Lua binding for the OpenWrt RPC client
-
-Package: libubus20230605
-Version: 2023-06-05-f787c97b-1
-Depends: libc, libubox20230523
-Provides: libubus
-Source: feeds/base/package/system/ubus
-SourceName: libubus
-License: LGPL-2.1
-Section: libs
-SourceDateEpoch: 1695039918
-ABIVersion: 20230605
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 9071
-Filename: libubus20230605_2023-06-05-f787c97b-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 9805
-SHA256sum: 644d19da35715ec823ab571665657d0662240b309b00813b12f6a18574719d49
-Description:  OpenWrt RPC client library
-
-Package: lua-examples
-Version: 5.1.5-11
-Depends: libc, lua
-Source: feeds/base/package/utils/lua
-SourceName: lua-examples
-License: MIT
-LicenseFiles: COPYRIGHT
-Section: lang
-SourceDateEpoch: 1714513571
-CPE-ID: cpe:/a:lua:lua
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 5290
-Filename: lua-examples_5.1.5-11_arm_cortex-a15_neon-vfpv4.ipk
-Size: 6186
-SHA256sum: cb91b63a101f06e6fa15b8c657381a1195cd1894953fac3bbc1436edbbc06f66
-Description:  Lua is a powerful light-weight programming language designed for extending 
- applications. Lua is also frequently used as a general-purpose, stand-alone 
- language. Lua is free software.
- This package contains Lua language examples.
-
-Package: lua
-Version: 5.1.5-11
-Depends: libc, liblua5.1.5
-Source: feeds/base/package/utils/lua
-SourceName: lua
-License: MIT
-LicenseFiles: COPYRIGHT
-Section: lang
-SourceDateEpoch: 1714513571
-CPE-ID: cpe:/a:lua:lua
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 4643
-Filename: lua_5.1.5-11_arm_cortex-a15_neon-vfpv4.ipk
-Size: 5532
-SHA256sum: e7b7e07f4f0b139b0370a56a8a0508793c93fbf8e717b0e46ccd319ab4f3e71f
-Description:  Lua is a powerful light-weight programming language designed for extending 
- applications. Lua is also frequently used as a general-purpose, stand-alone 
- language. Lua is free software.
- This package contains the Lua language interpreter.
-
-Package: luac
-Version: 5.1.5-11
-Depends: libc, liblua5.1.5
-Source: feeds/base/package/utils/lua
-SourceName: luac
-License: MIT
-LicenseFiles: COPYRIGHT
-Section: lang
-SourceDateEpoch: 1714513571
-CPE-ID: cpe:/a:lua:lua
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 5375
-Filename: luac_5.1.5-11_arm_cortex-a15_neon-vfpv4.ipk
-Size: 6273
-SHA256sum: 34c8d45e4795df48a374965c408f1aae008fba4f0525a4b79a1ee6f0996fdc39
-Description:  Lua is a powerful light-weight programming language designed for extending 
- applications. Lua is also frequently used as a general-purpose, stand-alone 
- language. Lua is free software.
- This package contains the Lua language compiler.
-
-Package: nftables-json
-Version: 1.0.8-1
-Depends: libc, kmod-nft-core, libnftnl11, jansson4
-Provides: nftables
-Source: feeds/base/package/network/utils/nftables
-SourceName: nftables-json
-License: GPL-2.0
-LicenseFiles: COPYING
-Section: net
-SourceDateEpoch: 1689833051
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 282248
-Filename: nftables-json_1.0.8-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 280993
-SHA256sum: b5dc9e67a939f5ffb246d54c5265676be93e6a4e82e3e1fa84f34077cb7b5998
-Description:  nftables userspace utility with JSON support
-
-Package: nftables-nojson
-Version: 1.0.8-1
-Depends: libc, kmod-nft-core, libnftnl11
-Conflicts: nftables-json
-Provides: nftables
-Source: feeds/base/package/network/utils/nftables
-SourceName: nftables-nojson
-License: GPL-2.0
-LicenseFiles: COPYING
-Section: net
-SourceDateEpoch: 1689833051
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 250946
-Filename: nftables-nojson_1.0.8-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 249887
-SHA256sum: 69328c4e2a144fff8db085c7e1d0dfe2385bf5f21a3643e792c5d707a1ad3a06
-Description:  nftables userspace utility no JSON support
-
-Package: openssl-util
-Version: 3.0.15-1
-Depends: libc, libopenssl3, libopenssl-conf
-Source: feeds/base/package/libs/openssl
-SourceName: openssl-util
-License: Apache-2.0
-LicenseFiles: LICENSE
-Section: utils
-SourceDateEpoch: 1726326260
-CPE-ID: cpe:/a:openssl:openssl
-Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 317254
-Filename: openssl-util_3.0.15-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 314846
-SHA256sum: b534402cdce5dbf1dc90b6bfef09d73f3fb5418507a91944a408b33bea2a109a
-Description:  The OpenSSL Project is a collaborative effort to develop a robust,
- commercial-grade, full-featured, and Open Source toolkit implementing the
- Transport Layer Security (TLS) protocol as well as a full-strength
- general-purpose cryptography library.
- This package contains the OpenSSL command-line utility.
-
 Package: terminfo
 Version: 6.4-2
 Depends: libc
@@ -820,39 +340,6 @@ Filename: terminfo_6.4-2_arm_cortex-a15_neon-vfpv4.ipk
 Size: 8896
 SHA256sum: 74ecdb2bfb05fdd19441cd989a5cdf1fb36b3f050c20abe4948bb0bb3ce363a6
 Description:  Terminal Info Database (ncurses)
-
-Package: ubus
-Version: 2023-06-05-f787c97b-1
-Depends: libc, libubus20230605, libblobmsg-json20230523, ubusd
-Source: feeds/base/package/system/ubus
-SourceName: ubus
-License: LGPL-2.1
-Section: base
-SourceDateEpoch: 1695039918
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 5668
-Filename: ubus_2023-06-05-f787c97b-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 6429
-SHA256sum: a0b40668492349d938c6ca1ae978b63bf37323e6e5a2146f067dfebcee163d64
-Description:  OpenWrt RPC client utility
-
-Package: ubusd
-Version: 2023-06-05-f787c97b-1
-Depends: libc, libubox20230523, libblobmsg-json20230523
-Source: feeds/base/package/system/ubus
-SourceName: ubusd
-License: LGPL-2.1
-Section: base
-Require-User: ubus=81:ubus=81
-SourceDateEpoch: 1695039918
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 11016
-Filename: ubusd_2023-06-05-f787c97b-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 11764
-SHA256sum: ea7fcf221c8641c479deca6de29596f2f15b4795a0bb90cd5f8f9bad625f1286
-Description:  OpenWrt RPC daemon
 
 Package: zlib-dev
 Version: 1.2.13-1
