@@ -115,7 +115,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package contains the OpenSSL shared libraries, needed by other programs.
 
 Package: ocserv
-Version: 1.3.0-r9
+Version: 1.4.1-r1
 Depends: libc, libgnutls, certtool, libncurses6, libreadline8, libprotobuf-c, libev, kmod-tun
 Source: /feed/packages/ocserv-update
 SourceName: ocserv
@@ -123,14 +123,14 @@ License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
 Require-User: ocserv=72:ocserv=72
-SourceDateEpoch: 1731535112
+SourceDateEpoch: 1774363544
 URL: http://www.infradead.org/ocserv/
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 901120
-Filename: ocserv_1.3.0-r9_aarch64_cortex-a53.ipk
-Size: 286216
-SHA256sum: a8e3277aa445b4e70ecc1ac4ae0ad4a40e8ad3d92f7e97514a413fa324dea50d
+Filename: ocserv_1.4.1-r1_aarch64_cortex-a53.ipk
+Size: 287453
+SHA256sum: e343b0f115af425b4e83113ec15eba2bf5f6171398a89af74fd4426dc6fefb45
 Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
  a secure, small, fast and configurable VPN server. It implements the
  OpenConnect SSL VPN protocol, and has also (currently experimental)
