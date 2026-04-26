@@ -118,13 +118,13 @@ License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
 Require-User: ocserv=72:ocserv=72
-SourceDateEpoch: 1777213977
+SourceDateEpoch: 1777216280
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 259268
+Installed-Size: 259262
 Filename: ocserv_1.4.1-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 259870
-SHA256sum: 78dbbf245bebb4b19bd612bdf7ef9d55a3ed1401bc07fc73da1f43d53a372a17
+Size: 259675
+SHA256sum: 90988738e0fa227281193228bba49f2b4cd19c93fa64f937bbaaf2de4f93fac6
 Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
  a secure, small, fast and configurable VPN server. It implements the
  OpenConnect SSL VPN protocol, and has also (currently experimental)
