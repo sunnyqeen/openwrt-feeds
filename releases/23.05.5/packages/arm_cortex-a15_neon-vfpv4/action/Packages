@@ -1,19 +1,19 @@
 Package: libopenssl-afalg
-Version: 3.0.19-1
+Version: 3.0.22-1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
 Source: /feed/packages/openssl-update
 SourceName: libopenssl-afalg
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1771356845
+SourceDateEpoch: 1788466128
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 5431
-Filename: libopenssl-afalg_3.0.19-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 6631
-SHA256sum: 79183c355cff5087ab89da8a70ff3982c6e4ce4cba6eb60b6687fc3a09f30214
+Installed-Size: 5437
+Filename: libopenssl-afalg_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6624
+SHA256sum: 2a81581582f0a48c731540546892d89919a2f8354feb37b9c2634666e94c032c
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -21,21 +21,21 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "afalg"
 
 Package: libopenssl-conf
-Version: 3.0.19-1
+Version: 3.0.22-1
 Depends: libc, libopenssl3
 Source: /feed/packages/openssl-update
 SourceName: libopenssl-conf
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1771356845
+SourceDateEpoch: 1788466128
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 5458
-Filename: libopenssl-conf_3.0.19-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 6484
-SHA256sum: 1405560d7b7ce222bdfa1c46ba240e164f5c2b26540b27aac4ec68a21ac0bf09
+Installed-Size: 5457
+Filename: libopenssl-conf_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6483
+SHA256sum: c27555924533abba4e9e1f4e3b253f2be320d2311bf8154c63f4207d37fe4d38
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -43,21 +43,21 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.19-1
+Version: 3.0.22-1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 Source: /feed/packages/openssl-update
 SourceName: libopenssl-devcrypto
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1771356845
+SourceDateEpoch: 1788466128
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 8221
-Filename: libopenssl-devcrypto_3.0.19-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 9432
-SHA256sum: 45fd008f7bfef2de32b4c66c9346e73bb61846dcee4df05815932c9077c8ed41
+Installed-Size: 8224
+Filename: libopenssl-devcrypto_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9402
+SHA256sum: cc63abd4483bb654bb3d954c076c009193a64a2bb85175aa029a3b90bc9bebfa
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -65,28 +65,28 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
-Version: 3.0.19-1
+Version: 3.0.22-1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: /feed/packages/openssl-update
 SourceName: libopenssl-legacy
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1771356845
+SourceDateEpoch: 1788466128
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 24494
-Filename: libopenssl-legacy_3.0.19-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 25302
-SHA256sum: 88f9342447dc4578b26ed19e3449a94fa61e36c9d84bda0546089eadc4845ecf
+Installed-Size: 24513
+Filename: libopenssl-legacy_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 25332
+SHA256sum: ef6d89fd7944ee65cec4dc9f20bb1a2949340c4ccf3f7908c05acd1644e91655
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.19-1
+Version: 3.0.22-1
 Depends: libc, libatomic1
 Provides: libopenssl
 Source: /feed/packages/openssl-update
@@ -94,15 +94,15 @@ SourceName: libopenssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1771356845
+SourceDateEpoch: 1788466128
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 1516854
-Filename: libopenssl3_3.0.19-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 1502850
-SHA256sum: 79b8eb2039b9fe955ae194a5a6838c6c618fc52229dec4daef396d7e0dbdf41a
+Installed-Size: 1519615
+Filename: libopenssl3_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1505797
+SHA256sum: 4885f6d22d8d2190a981b89cf9ab36f1ba7c95eff286b2386ca7ce218cee85bd
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -110,7 +110,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package contains the OpenSSL shared libraries, needed by other programs.
 
 Package: ocserv
-Version: 1.4.1-2
+Version: 1.5.0-1
 Depends: libc, libgnutls, certtool, libncurses6, libreadline8, libprotobuf-c, libev, kmod-tun
 Source: /feed/packages/ocserv-update
 SourceName: ocserv
@@ -118,13 +118,13 @@ License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
 Require-User: ocserv=72:ocserv=72
-SourceDateEpoch: 1777216280
+SourceDateEpoch: 1788474867
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 259262
-Filename: ocserv_1.4.1-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 259675
-SHA256sum: 90988738e0fa227281193228bba49f2b4cd19c93fa64f937bbaaf2de4f93fac6
+Installed-Size: 262395
+Filename: ocserv_1.5.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 262865
+SHA256sum: 6faea9fd7e7c3ed8d55f12ba8c448bba5a0119f5506aa573618957374ffe61da
 Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
  a secure, small, fast and configurable VPN server. It implements the
  OpenConnect SSL VPN protocol, and has also (currently experimental)
@@ -133,21 +133,21 @@ Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is t
  as TLS 1.2, and Datagram TLS to provide the secure VPN service.
 
 Package: openssl-util
-Version: 3.0.19-1
+Version: 3.0.22-1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: /feed/packages/openssl-update
 SourceName: openssl-util
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: utils
-SourceDateEpoch: 1771356845
+SourceDateEpoch: 1788466128
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 318414
-Filename: openssl-util_3.0.19-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 315990
-SHA256sum: e3af19cb096f397a23b0a9dacc15b465a8f29cb7b5d557f7ff44cf7107e12ef6
+Installed-Size: 318470
+Filename: openssl-util_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 316039
+SHA256sum: 0901ad9b8474ca1255812afe4c8c97b46bc4ab085aba2e982da087167dbef77e
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
