@@ -6,15 +6,15 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1788466128
+SourceDateEpoch: 1788615117
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 20480
 Filename: libopenssl-afalg_3.0.22-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 6667
-SHA256sum: 635824aea4d2178ca8c89bdf7a8a6115016dcff815497c26725af519e42bd21e
+Size: 6682
+SHA256sum: e85c69a4844f58a9641b11ef103c664754d509d7d560eec5caee2616ba11a97b
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -29,15 +29,15 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1788466128
+SourceDateEpoch: 1788615117
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 20480
 Filename: libopenssl-conf_3.0.22-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 6500
-SHA256sum: 7e143655fb908086a94d8080b50ad98c786cb788cf87dc6d825654b3c9c518d9
+Size: 6498
+SHA256sum: 89ec844b12cb285eed2b896721622b146f266b11f9cc9774a80b967ad5d42ba2
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -52,15 +52,15 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1788466128
+SourceDateEpoch: 1788615117
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 30720
 Filename: libopenssl-devcrypto_3.0.22-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 9440
-SHA256sum: 81fd3a299cce31cb3cc7fda562aa8261b6a6ee2dc99e8f16a3659d8e30025ca4
+Size: 9433
+SHA256sum: a2f790d946a23457d4fdcde0a01723d086a3294eebc4a99d645dff84dc771fe9
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -75,15 +75,15 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1788466128
+SourceDateEpoch: 1788615117
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 81920
 Filename: libopenssl-legacy_3.0.22-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 25467
-SHA256sum: 752e8842cb20c5e2cc86c89ba314e6927d64b0a43f29253cb57f08c5664d1537
+Size: 25472
+SHA256sum: bcc6d2981ac9838bafb4e30a5e336368c98993ad44097821a2b525e0edefde07
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
@@ -98,7 +98,7 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: libs
-SourceDateEpoch: 1788466128
+SourceDateEpoch: 1788615117
 URL: https://www.openssl.org/
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
@@ -106,8 +106,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 3153920
 Filename: libopenssl3_3.0.22-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1502860
-SHA256sum: 2d224b45552811cd2f0917c5b5612faa0179a84439f66ae71866aa860e648155
+Size: 1502935
+SHA256sum: ef854fd8ff8f332ce43a606302b9d55ebbd9cd3856ab15a8ca7d94b629c9bacc
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -123,14 +123,14 @@ License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
 Require-User: ocserv=72:ocserv=72
-SourceDateEpoch: 1788474867
+SourceDateEpoch: 1788615055
 URL: https://ocserv.openconnect-vpn.net/
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 665600
 Filename: ocserv_1.5.0-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 261538
-SHA256sum: d8fd5925cf95afdabf4d1db496989ab22650b5a425644b049f1b2fcbbd982530
+Size: 261526
+SHA256sum: bd035b236bf8f78a8f7f31e68aa812e7d06c6c71a083f469b0b63b0ce027abe3
 Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
  a secure, small, fast and configurable VPN server. It implements the
  OpenConnect SSL VPN protocol, and has also (currently experimental)
@@ -146,15 +146,15 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE.txt
 Section: utils
-SourceDateEpoch: 1788466128
+SourceDateEpoch: 1788615117
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 696320
 Filename: openssl-util_3.0.22-r1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 314404
-SHA256sum: ca7f515148b4ebce71db1e382f2a5e81fef7e66e74c100fe55734b237b54656c
+Size: 314414
+SHA256sum: c04fdc4cac31d2b8bdf7e2b386a1268a8fce48ef65c24c7db8b425295275575d
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
