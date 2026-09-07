@@ -1,0 +1,182 @@
+Package: libopenssl-afalg
+Version: 3.0.22-1
+Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
+Source: /feed/packages/openssl-update
+SourceName: libopenssl-afalg
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1788615117
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5437
+Filename: libopenssl-afalg_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6622
+SHA256sum: cf0eaded262e228c63dcd3a1312f50e5a94c711a409d35c98e51e5a608c5f853
+Description:  This package adds an engine that enables hardware acceleration
+ through the AF_ALG kernel interface.
+ See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
+ and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
+ The engine_id is "afalg"
+
+Package: libopenssl-conf
+Version: 3.0.22-1
+Depends: libc, libopenssl3
+Source: /feed/packages/openssl-update
+SourceName: libopenssl-conf
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1788615117
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5459
+Filename: libopenssl-conf_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6480
+SHA256sum: e7cd1269f363de66c25aab0068d847998c3c48978b0cf2a4f6e54b06a3cf3336
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
+
+Package: libopenssl-devcrypto
+Version: 3.0.22-1
+Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
+Source: /feed/packages/openssl-update
+SourceName: libopenssl-devcrypto
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1788615117
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8224
+Filename: libopenssl-devcrypto_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9433
+SHA256sum: d8a664f6c7107bf5e7492b4113d71a758b7a17c0652e706cc4d93acea7ddbd83
+Description:  This package adds an engine that enables hardware acceleration
+ through the /dev/crypto kernel interface.
+ See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
+ and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
+ The engine_id is "devcrypto"
+
+Package: libopenssl-legacy
+Version: 3.0.22-1
+Depends: libc, libopenssl3, libopenssl-conf
+Source: /feed/packages/openssl-update
+SourceName: libopenssl-legacy
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1788615117
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 24513
+Filename: libopenssl-legacy_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 25409
+SHA256sum: 4d94c886864b104206180cd38c5c6ce7c2ed48baa2571675bf216338ede6e96f
+Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
+ have been deemed legacy. Such algorithms have commonly fallen out of use, have
+ been deemed insecure by the cryptography community, or something similar.  See
+ https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
+
+Package: libopenssl3
+Version: 3.0.22-1
+Depends: libc, libatomic1
+Provides: libopenssl
+Source: /feed/packages/openssl-update
+SourceName: libopenssl
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+SourceDateEpoch: 1788615117
+ABIVersion: 3
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1519610
+Filename: libopenssl3_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1505800
+SHA256sum: ccbe8b38eafd7814def57dfc1d99f6e43b2fe6c98ac770ac21e7fc69efb070b9
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: ocserv
+Version: 1.5.0-1
+Depends: libc, libgnutls, certtool, libncurses6, libreadline8, libprotobuf-c, libev, kmod-tun
+Source: /feed/packages/ocserv-update
+SourceName: ocserv
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+Require-User: ocserv=72:ocserv=72
+SourceDateEpoch: 1788615055
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 262414
+Filename: ocserv_1.5.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 262822
+SHA256sum: c8d53aa2da24fcbfcd580c3e94f2a5cebd97eb5a36b56b52e8e95f380b777f91
+Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be
+ a secure, small, fast and configurable VPN server. It implements the
+ OpenConnect SSL VPN protocol, and has also (currently experimental)
+ compatibility with clients using the AnyConnect SSL VPN protocol. The
+ OpenConnect VPN protocol uses the standard IETF security protocols such
+ as TLS 1.2, and Datagram TLS to provide the secure VPN service.
+
+Package: openconnect
+Version: 9.21-1
+Depends: libc, libxml2, kmod-tun, resolveip, vpnc-scripts, libgnutls, libtasn1
+Source: /feed/packages/openconnect-update
+SourceName: openconnect
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LGPL
+Section: net
+SourceDateEpoch: 1788812699
+CPE-ID: cpe:/a:infradead:openconnect
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 173591
+Filename: openconnect_9.21-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 174293
+SHA256sum: 668cd8ca1dbdc673d6b76f87321bf4277602694faa98451090401e30059e979b
+Description:  A VPN client compatible with several SSL VPN implementations (ocserv, Cisco AnyConnect, Juniper, Palo Alto)
+ 
+ OpenConnect is an SSL VPN client initially created to support Cisco's
+ AnyConnect SSL VPN. It has since been extended to support the Pulse Connect
+ Secure VPN (formerly known as Juniper Network Connect or Junos Pulse) and
+ the Palo Alto Networks GlobalProtect SSL VPN.
+ 
+ A corresponding OpenConnect VPN server implementation can be found in the
+ ocserv package.
+
+Package: openssl-util
+Version: 3.0.22-1
+Depends: libc, libopenssl3, libopenssl-conf
+Source: /feed/packages/openssl-update
+SourceName: openssl-util
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: utils
+SourceDateEpoch: 1788615117
+CPE-ID: cpe:/a:openssl:openssl
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 318466
+Filename: openssl-util_3.0.22-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 316062
+SHA256sum: 947823f9a120ce13a6b660a7a0e079248e07a258df1a85ebf6b81aa4dc768cac
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the
+ Transport Layer Security (TLS) protocol as well as a full-strength
+ general-purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+

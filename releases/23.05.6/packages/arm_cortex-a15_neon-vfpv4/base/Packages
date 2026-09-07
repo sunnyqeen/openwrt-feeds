@@ -1,0 +1,453 @@
+Package: ca-bundle
+Version: 20241223-1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/package/system/ca-certificates
+SourceName: ca-bundle
+License: GPL-2.0-or-later MPL-2.0
+LicenseFiles: debian/copyright
+Section: base
+SourceDateEpoch: 1747951669
+Architecture: all
+Installed-Size: 132261
+Filename: ca-bundle_20241223-1_all.ipk
+Size: 133125
+SHA256sum: 9cfd98caa9192855bae5ba271abd11b1e75f902d77ffc7c434d38a78d3a77beb
+Description:  System CA certificates as a bundle
+
+Package: ca-certificates
+Version: 20241223-1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/package/system/ca-certificates
+SourceName: ca-certificates
+License: GPL-2.0-or-later MPL-2.0
+LicenseFiles: debian/copyright
+Section: base
+SourceDateEpoch: 1747951669
+Architecture: all
+Installed-Size: 143729
+Filename: ca-certificates_20241223-1_all.ipk
+Size: 144482
+SHA256sum: 4e6dd9291d28c0334fe3ed4b23526f4cdf264277413b1045badf623f085b4042
+Description:  System CA certificates
+
+Package: libevent2-7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: -7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 93241
+Filename: libevent2-7_2.1.12-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 94332
+SHA256sum: 3afed76943536f964df34e7a5303c27dece6f2b7cf6934c81b771b1c7ba27929
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libevent2-core7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2-core
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-core
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 55733
+Filename: libevent2-core7_2.1.12-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 56848
+SHA256sum: 96fbe6c95d69374dde90bfb2dee0850278e2eaecc2a8423d4116f27ec835ef6e
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-extra7
+Version: 2.1.12-1
+Depends: libc, libevent2-core7
+Provides: libevent2-extra
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-extra
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 41412
+Filename: libevent2-extra7_2.1.12-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 42546
+SHA256sum: b80554766fe895d6b437bd3725805fa7ce375320f58f1215034bb12c9b832e71
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent extra shared library for specific
+ protocols including HTTP, DNS & RPC.
+
+Package: libevent2-openssl7
+Version: 2.1.12-1
+Depends: libc, libopenssl3, libevent2-core7
+Provides: libevent2-openssl
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-openssl
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6816
+Filename: libevent2-openssl7_2.1.12-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7967
+SHA256sum: a9424b9b3d607c2d9e0501aa8e57aa89f91706317e46ab22cafd42a18b930a23
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent OpenSSL shared library for encrypted
+ bufferevents.
+
+Package: libevent2-pthreads7
+Version: 2.1.12-1
+Depends: libc, libpthread, libevent2-core7
+Provides: libevent2-pthreads
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-pthreads
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1742
+Filename: libevent2-pthreads7_2.1.12-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2853
+SHA256sum: 307068cb34a1e8de1bb13bb4800a7eed635fee315d9893ef3ca8beaa3458a05d
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
+
+Package: libgmp10
+Version: 6.2.1-1
+Depends: libc
+Provides: libgmp
+Source: feeds/base/package/libs/gmp
+SourceName: libgmp
+License: GPL-2.0-or-later
+Section: libs
+SourceDateEpoch: 1695847021
+ABIVersion: 10
+CPE-ID: cpe:/a:gmplib:gmp
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 186714
+Filename: libgmp10_6.2.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 187315
+SHA256sum: 66325f9de546f6fbd4a59353c13e76c98a3280c0ee44a7e1b50eab46745d1893
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libmnl0
+Version: 1.0.5-1
+Depends: libc
+Provides: libmnl
+Source: feeds/base/package/libs/libmnl
+SourceName: libmnl
+License: LGPL-2.1+
+Section: libs
+SourceDateEpoch: 1662478604
+ABIVersion: 0
+CPE-ID: cpe:/a:netfilter:libmnl
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5413
+Filename: libmnl0_1.0.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6664
+SHA256sum: a921adb329ff9823b14699f3ad5e43631d0bc2cd7232049c593c54e8d3ad92a7
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libncurses-dev
+Version: 6.4-2
+Depends: libc, zlib
+Source: feeds/base/package/libs/ncurses
+SourceName: libncurses-dev
+License: MIT
+LicenseFiles: README
+Section: devel
+SourceDateEpoch: 1726358605
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 249697
+Filename: libncurses-dev_6.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 248115
+SHA256sum: 6bc2f0bbb2a15650eacd9d461baeadef54e82874ec53f8dc44315f056983afa6
+Description:  Development files for the ncurses library
+
+Package: libncurses6
+Version: 6.4-2
+Depends: libc, terminfo
+Provides: libncursesw, libncurses, libncursesw6
+Source: feeds/base/package/libs/ncurses
+SourceName: libncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1726358605
+ABIVersion: 6
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 159772
+Filename: libncurses6_6.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 158198
+SHA256sum: 72157830b5d13aa728c411588bc27e5349dd8001b45e2afb140643aee03077e0
+Description:  Terminal handling library (Unicode)
+
+Package: libnettle8
+Version: 3.9.1-1
+Depends: libc, libgmp10
+Provides: libnettle
+Source: feeds/base/package/libs/nettle
+SourceName: libnettle
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1693172967
+ABIVersion: 8
+CPE-ID: cpe:/a:nettle_project:nettle
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 342598
+Filename: libnettle8_3.9.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 342087
+SHA256sum: 31ab35f60859cbc84ede2cb5f2a1605aa9674b752c013df22fbda219370d7823
+Description:  GNU crypto library
+
+Package: libreadline8
+Version: 8.2-1
+Depends: libc, libncursesw6
+Provides: libreadline
+Source: feeds/base/package/libs/readline
+SourceName: libreadline
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1666541782
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:readline
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 127907
+Filename: libreadline8_8.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 127300
+SHA256sum: 6b69a5c967a78503d8895bf1b86951affce02bd93ae1b57e5799a67e632bf9a9
+Description:  The Readline library provides a set of functions for use by applications
+ that allow users to edit command lines as they are typed in. Both Emacs
+ and vi editing modes are available. The Readline library includes
+ additional functions to maintain a list of previously-entered command
+ lines, to recall and perhaps reedit those lines, and perform csh-like
+ history expansion on previous commands.
+
+Package: libxml2-dev
+Version: 2.14.5-1
+Depends: libc, libxml2
+Source: feeds/base/package/libs/libxml2
+SourceName: libxml2-dev
+License: MIT
+LicenseFiles: COPYING
+Section: devel
+SourceDateEpoch: 1753638659
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 80472
+Filename: libxml2-dev_2.14.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 81392
+SHA256sum: 09083ce0948a5a86989bd7b1ef9abdd4816c8efc0d40bdafd940c47122106e88
+Description:  A library for manipulating XML and HTML resources.
+ 
+ This package contains the headers and xml2-config binary.
+
+Package: libxml2-utils
+Version: 2.14.5-1
+Depends: libc, libxml2
+Source: feeds/base/package/libs/libxml2
+SourceName: libxml2-utils
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1753638659
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 29043
+Filename: libxml2-utils_2.14.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 29681
+SHA256sum: 8ce57d6c60ba0b383490be12bbaca91158605968cb0ff3c41c8ce75f73a2bc9b
+Description:  This package contains the binaries xmllint and xmlcatalog
+ from libxml2, a library for manipulating XML and HTML resources.
+
+Package: libxml2
+Version: 2.14.5-1
+Depends: libc, libpthread, zlib
+Source: feeds/base/package/libs/libxml2
+SourceName: libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1753638659
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 435578
+Filename: libxml2_2.14.5-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 435040
+SHA256sum: ceeaedc3ea9e1d9b2d20696a2f4747974553ca8c3b8aa4403a0e9755050aa858
+Description:  A library for manipulating XML and HTML resources.
+
+Package: resolveip
+Version: 2
+Depends: libc
+Source: feeds/base/package/network/utils/resolveip
+SourceName: resolveip
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1476524212
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1585
+Filename: resolveip_2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2491
+SHA256sum: c5cea2c0dc0cce57020c7d3eccb11457a2a1013a761863ef7af5b984686887da
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: terminfo
+Version: 6.4-2
+Depends: libc
+Source: feeds/base/package/libs/ncurses
+SourceName: terminfo
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1726358605
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8195
+Filename: terminfo_6.4-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 8896
+SHA256sum: 74ecdb2bfb05fdd19441cd989a5cdf1fb36b3f050c20abe4948bb0bb3ce363a6
+Description:  Terminal Info Database (ncurses)
+
+Package: zlib-dev
+Version: 1.2.13-1
+Depends: libc, zlib
+Source: feeds/base/package/libs/zlib
+SourceName: zlib-dev
+License: Zlib
+LicenseFiles: README
+Section: devel
+SourceDateEpoch: 1684402529
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 73623
+Filename: zlib-dev_1.2.13-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 74377
+SHA256sum: bb0966cb715af1cf21fcfaa4e652bb42805f19a99551785dcdeecad8fd8cb0e0
+Description:  zlib is a lossless data-compression library.
+ This package includes the development support files.
+
+Package: zlib
+Version: 1.2.13-1
+Depends: libc
+Source: feeds/base/package/libs/zlib
+SourceName: zlib
+License: Zlib
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1684402529
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 37768
+Filename: zlib_1.2.13-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 38560
+SHA256sum: 58fae5d50ccdecc0c45e413151eab3b6a8443e2d0ab8624a03f7820ec55fa342
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+
