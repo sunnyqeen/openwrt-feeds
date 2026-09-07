@@ -1,0 +1,367 @@
+Package: certtool
+Version: 3.8.3-1
+Depends: libc, libgnutls
+Source: feeds/packages/libs/gnutls
+SourceName: certtool
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_generic
+Installed-Size: 95450
+Filename: certtool_3.8.3-1_aarch64_generic.ipk
+Size: 95936
+SHA256sum: 4cbce65dfae57b3574308f292a764c195bf4b1f23789f3c6adaa29d82475a350
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
+
+Package: gnutls-utils
+Version: 3.8.3-1
+Depends: libc, libgnutls, libgnutls-dane
+Source: feeds/packages/libs/gnutls
+SourceName: gnutls-utils
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_generic
+Installed-Size: 155513
+Filename: gnutls-utils_3.8.3-1_aarch64_generic.ipk
+Size: 155455
+SHA256sum: a3e3415443be17b0a35eb7ccd07574b652e8b50fb03805ece56b7ee6cffccbc1
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
+ and srptool utilities.
+
+Package: libev
+Version: 4.33-2
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause or GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1755177309
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: aarch64_generic
+Installed-Size: 23689
+Filename: libev_4.33-2_aarch64_generic.ipk
+Size: 24423
+SHA256sum: b1393271a35a9f6203228289c9427d229f4fb5cbdda8a38dba549a53a3986e24
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libexpat
+Version: 2.6.3-1
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:libexpat_project:libexpat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_generic
+Installed-Size: 50523
+Filename: libexpat_2.6.3-1_aarch64_generic.ipk
+Size: 50872
+SHA256sum: 4e3390eab1053d6f3b1a966a675070ac17f7af735ce95de855c3f4cb5d0c9d92
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libgnutls-dane
+Version: 3.8.3-1
+Depends: libc, libgnutls, libunbound
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls-dane
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_generic
+Installed-Size: 23653
+Filename: libgnutls-dane_3.8.3-1_aarch64_generic.ipk
+Size: 24346
+SHA256sum: 5a030e9049a0329637bd56e48e1bb053b971178d9a7598289d25e94eb0af17e1
+Description:  GNU TLS (libgnutls-dane library)
+
+Package: libgnutls
+Version: 3.8.3-1
+Depends: libc, libnettle8, libgmp10, libatomic1
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_generic
+Installed-Size: 908252
+Filename: libgnutls_3.8.3-1_aarch64_generic.ipk
+Size: 906690
+SHA256sum: bfcde130d2f0d93212d25c96f08fb475226bd4198ffead6143ac14b95c26157b
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libprotobuf-c
+Version: 1.4.1-1
+Depends: libc
+Source: feeds/packages/libs/protobuf-c
+SourceName: libprotobuf-c
+License: BSD-2-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:protobuf-c_project:protobuf-c
+Architecture: aarch64_generic
+Installed-Size: 10499
+Filename: libprotobuf-c_1.4.1-1_aarch64_generic.ipk
+Size: 11237
+SHA256sum: 76b6f26ab6a8c10caef65fdf339043d5655239041357a99ec2f6a5db1fd773b6
+Description:  Runtime library to use Google Protocol Buffers from C applications.
+ Protocol Buffers are a way of encoding structured data in an efficient yet
+ extensible format. Google uses Protocol Buffers for almost all of its
+ internal RPC protocols and file formats.
+
+Package: libtasn1
+Version: 4.19.0-2
+Depends: libc
+Source: feeds/packages/libs/libtasn1
+SourceName: libtasn1
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:gnu:libtasn1
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 32868
+Filename: libtasn1_4.19.0-2_aarch64_generic.ipk
+Size: 33382
+SHA256sum: dcfd7d0a0a18ccc5dc64d5af690614504288f2f3a328047897846364001fbdae
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libunbound
+Version: 1.20.0-1
+Depends: libc, ca-bundle, libopenssl3, libmnl0, libevent2-7, libpthread
+Source: feeds/packages/net/unbound
+SourceName: libunbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Require-User: unbound:unbound
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 479756
+Filename: libunbound_1.20.0-1_aarch64_generic.ipk
+Size: 475893
+SHA256sum: 82ec6489e9723f70be0419bd14dd2476a93458555be7edcdf8deb547829ea1e7
+Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available to custom trim Unbound for smaller targets.
+
+Package: protobuf-lite
+Version: 3.17.3-2
+Depends: libc, zlib, libpthread, libatomic1, libstdcpp6
+Source: feeds/packages/libs/protobuf
+SourceName: protobuf-lite
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:google:protobuf
+Maintainer: Ken Keys <kkeys@caida.org>
+Architecture: aarch64_generic
+Installed-Size: 154808
+Filename: protobuf-lite_3.17.3-2_aarch64_generic.ipk
+Size: 155417
+SHA256sum: 5a97b662c600281131efb15bf0e2cc3a3d7334e2e4d35b5ecce4977979425077
+Description:  Protocol Buffers are a way of encoding structured data in an efficient
+ yet extensible format. Google uses Protocol Buffers for almost all
+ of its internal RPC protocols and file formats.
+ 
+ This package provides the libprotobuf-lite library.
+ 
+
+Package: protobuf
+Version: 3.17.3-2
+Depends: libc, zlib, libpthread, libatomic1, libstdcpp6, protobuf-lite
+Source: feeds/packages/libs/protobuf
+SourceName: protobuf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:google:protobuf
+Maintainer: Ken Keys <kkeys@caida.org>
+Architecture: aarch64_generic
+Installed-Size: 1445551
+Filename: protobuf_3.17.3-2_aarch64_generic.ipk
+Size: 1442875
+SHA256sum: 9858acdc4754fc34070880797b33f96b214934878d05df5c40921a78de7f82d1
+Description:  Protocol Buffers are a way of encoding structured data in an efficient
+ yet extensible format. Google uses Protocol Buffers for almost all
+ of its internal RPC protocols and file formats.
+ 
+ This package provides the libprotoc, libprotobuf, and libprotobuf-lite
+ libraries.  For a much smaller protobuf package, see "protobuf-lite".
+ 
+
+Package: unbound-anchor
+Version: 1.20.0-1
+Depends: libc, ca-bundle, libopenssl3, unbound-daemon, libexpat
+Source: feeds/packages/net/unbound
+SourceName: unbound-anchor
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 23232
+Filename: unbound-anchor_1.20.0-1_aarch64_generic.ipk
+Size: 23965
+SHA256sum: dc42f852c7ed296e3c7c75b15c56f2f1150d2a47438edc99f4d2818949469339
+Description:  This package contains the Unbound anchor utility.
+
+Package: unbound-checkconf
+Version: 1.20.0-1
+Depends: libc, ca-bundle, libopenssl3, unbound-daemon
+Source: feeds/packages/net/unbound
+SourceName: unbound-checkconf
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 55771
+Filename: unbound-checkconf_1.20.0-1_aarch64_generic.ipk
+Size: 56237
+SHA256sum: 40791a35a80180b6ffab484dd343f6ceb2ceabfeb39cedcb481b12f0dc4121f1
+Description:  This package contains the Unbound DNS configuration checker utility.
+
+Package: unbound-control-setup
+Version: 1.20.0-1
+Depends: libc, ca-bundle, libopenssl3, unbound-control, openssl-util
+Source: feeds/packages/net/unbound
+SourceName: unbound-control-setup
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 2589
+Filename: unbound-control-setup_1.20.0-1_aarch64_generic.ipk
+Size: 3430
+SHA256sum: 94cbe5748863da2a6c5f209296d7ea99c6c804c39adbaa2027be6ffe44c12b81
+Description:  This package contains the Unbound control setup utility.
+
+Package: unbound-control
+Version: 1.20.0-1
+Depends: libc, ca-bundle, libopenssl3, unbound-daemon
+Source: feeds/packages/net/unbound
+SourceName: unbound-control
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 56915
+Filename: unbound-control_1.20.0-1_aarch64_generic.ipk
+Size: 57392
+SHA256sum: cafc280e27287b58c84d73daa4bef94f9e042c3b5710bada6ff06422a90f9944
+Description:  This package contains the Unbound control utility.
+
+Package: unbound-daemon
+Version: 1.20.0-1
+Depends: libc, ca-bundle, libopenssl3, libunbound
+Source: feeds/packages/net/unbound
+SourceName: unbound-daemon
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 144729
+Filename: unbound-daemon_1.20.0-1_aarch64_generic.ipk
+Size: 145045
+SHA256sum: 2b5111386ea168e70604f5e1eeb43b222f7fe5d324e167e8563fe02e2a2d7d7f
+Description:  This package contains the Unbound daemon including 'libevent', 'libmnl', and
+ 'libpthread' to better handle large networks with heavy query loads. Options
+ are available under libraries/network/libunbound to custom trim Unbound for
+ smaller targets.
+
+Package: unbound-host
+Version: 1.20.0-1
+Depends: libc, ca-bundle, libopenssl3, libunbound
+Source: feeds/packages/net/unbound
+SourceName: unbound-host
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound:unbound
+SourceDateEpoch: 1755177309
+CPE-ID: cpe:/a:nlnetlabs:unbound
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 48741
+Filename: unbound-host_1.20.0-1_aarch64_generic.ipk
+Size: 49223
+SHA256sum: 8bd228f54c54f0ba03ee2aa1b110ae6e3eade8e2ffac8526a2b007edc8ec7702
+Description:  This package contains the Unbound DNS lookup utility.
+
+Package: vpnc-scripts
+Version: 20151220-3
+Depends: libc
+Source: feeds/packages/net/vpnc-scripts
+SourceName: vpnc-scripts
+Section: net
+SourceDateEpoch: 1755177309
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: all
+Installed-Size: 2295
+Filename: vpnc-scripts_20151220-3_all.ipk
+Size: 3079
+SHA256sum: 0d6eb35cb99d6fc1c6e701ea4bf33334e863a0951f316b50cead16f19ce8e1ef
+Description:  This package contains the vpnc-script which is used by vpnc
+ and OpenConnect to configure the tunnel interface.
+

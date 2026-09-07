@@ -1,0 +1,453 @@
+Package: ca-bundle
+Version: 20241223-1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/package/system/ca-certificates
+SourceName: ca-bundle
+License: GPL-2.0-or-later MPL-2.0
+LicenseFiles: debian/copyright
+Section: base
+SourceDateEpoch: 1747951669
+Architecture: all
+Installed-Size: 132261
+Filename: ca-bundle_20241223-1_all.ipk
+Size: 133125
+SHA256sum: 9cfd98caa9192855bae5ba271abd11b1e75f902d77ffc7c434d38a78d3a77beb
+Description:  System CA certificates as a bundle
+
+Package: ca-certificates
+Version: 20241223-1
+Depends: libc
+Provides: ca-certs
+Source: feeds/base/package/system/ca-certificates
+SourceName: ca-certificates
+License: GPL-2.0-or-later MPL-2.0
+LicenseFiles: debian/copyright
+Section: base
+SourceDateEpoch: 1747951669
+Architecture: all
+Installed-Size: 143729
+Filename: ca-certificates_20241223-1_all.ipk
+Size: 144482
+SHA256sum: 4e6dd9291d28c0334fe3ed4b23526f4cdf264277413b1045badf623f085b4042
+Description:  System CA certificates
+
+Package: libevent2-7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: -7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 110450
+Filename: libevent2-7_2.1.12-1_aarch64_generic.ipk
+Size: 111556
+SHA256sum: ac0a30b3a0e10a298edef7df1bb7cd2b9b176324d3cae3f417b1bdcbf25a4703
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libevent2-core7
+Version: 2.1.12-1
+Depends: libc
+Provides: libevent2-core
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-core
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 65647
+Filename: libevent2-core7_2.1.12-1_aarch64_generic.ipk
+Size: 66479
+SHA256sum: 57873a4c52d5c82a53df096c6b1c9989fddc381e9fd38912a4c8685cc982d503
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent core shared library for the event,
+ buffer & utility functions.
+
+Package: libevent2-extra7
+Version: 2.1.12-1
+Depends: libc, libevent2-core7
+Provides: libevent2-extra
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-extra
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 50454
+Filename: libevent2-extra7_2.1.12-1_aarch64_generic.ipk
+Size: 51451
+SHA256sum: 2bff4d1195cf193294de75b2010db503cd9ff4693f8392a67a51144f7ff70b1e
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent extra shared library for specific
+ protocols including HTTP, DNS & RPC.
+
+Package: libevent2-openssl7
+Version: 2.1.12-1
+Depends: libc, libopenssl3, libevent2-core7
+Provides: libevent2-openssl
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-openssl
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 8459
+Filename: libevent2-openssl7_2.1.12-1_aarch64_generic.ipk
+Size: 9494
+SHA256sum: 97d54a92710213b273392bdda9f1930c912fb353ea08db3f42d78c0b698145bd
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent OpenSSL shared library for encrypted
+ bufferevents.
+
+Package: libevent2-pthreads7
+Version: 2.1.12-1
+Depends: libc, libpthread, libevent2-core7
+Provides: libevent2-pthreads
+Source: feeds/base/package/libs/libevent2
+SourceName: libevent2-pthreads
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1679419702
+ABIVersion: 7
+CPE-ID: cpe:/a:libevent_project:libevent
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 2176
+Filename: libevent2-pthreads7_2.1.12-1_aarch64_generic.ipk
+Size: 3149
+SHA256sum: a4974472f69dce85e9355a655d46204bfa768adf6a644769e5de74c1051f28e8
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent Pthreads shared library for
+ threading & locking.
+
+Package: libgmp10
+Version: 6.2.1-1
+Depends: libc
+Provides: libgmp
+Source: feeds/base/package/libs/gmp
+SourceName: libgmp
+License: GPL-2.0-or-later
+Section: libs
+SourceDateEpoch: 1695847021
+ABIVersion: 10
+CPE-ID: cpe:/a:gmplib:gmp
+Architecture: aarch64_generic
+Installed-Size: 220369
+Filename: libgmp10_6.2.1-1_aarch64_generic.ipk
+Size: 220982
+SHA256sum: dec364005f37d42459a76def5993e6fac2ee9deb7efd80970d3f49472bdab821
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libmnl0
+Version: 1.0.5-1
+Depends: libc
+Provides: libmnl
+Source: feeds/base/package/libs/libmnl
+SourceName: libmnl
+License: LGPL-2.1+
+Section: libs
+SourceDateEpoch: 1662478604
+ABIVersion: 0
+CPE-ID: cpe:/a:netfilter:libmnl
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 7223
+Filename: libmnl0_1.0.5-1_aarch64_generic.ipk
+Size: 8419
+SHA256sum: 693d1f7b8125a3339f0a2b32ed8e898a5d3b9aad0d5bffc96da55ef2d5332d5a
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libncurses-dev
+Version: 6.4-2
+Depends: libc, zlib
+Source: feeds/base/package/libs/ncurses
+SourceName: libncurses-dev
+License: MIT
+LicenseFiles: README
+Section: devel
+SourceDateEpoch: 1726358605
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: aarch64_generic
+Installed-Size: 294531
+Filename: libncurses-dev_6.4-2_aarch64_generic.ipk
+Size: 292892
+SHA256sum: a91f8035389795e845024e482ccaa73da6baf8ad418106ad307bce8f222124a7
+Description:  Development files for the ncurses library
+
+Package: libncurses6
+Version: 6.4-2
+Depends: libc, terminfo
+Provides: libncursesw, libncurses, libncursesw6
+Source: feeds/base/package/libs/ncurses
+SourceName: libncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1726358605
+ABIVersion: 6
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: aarch64_generic
+Installed-Size: 188377
+Filename: libncurses6_6.4-2_aarch64_generic.ipk
+Size: 187164
+SHA256sum: 95ddc8e9ef75964be221975ff922e07bdc37bbe800556ea7a28515c7ea7c50ec
+Description:  Terminal handling library (Unicode)
+
+Package: libnettle8
+Version: 3.9.1-1
+Depends: libc, libgmp10
+Provides: libnettle
+Source: feeds/base/package/libs/nettle
+SourceName: libnettle
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1693172967
+ABIVersion: 8
+CPE-ID: cpe:/a:nettle_project:nettle
+Architecture: aarch64_generic
+Installed-Size: 356452
+Filename: libnettle8_3.9.1-1_aarch64_generic.ipk
+Size: 356418
+SHA256sum: 1f62835a3c484c985a6fb6930525d152744a8d47a760726ba138c6fa337e138f
+Description:  GNU crypto library
+
+Package: libreadline8
+Version: 8.2-1
+Depends: libc, libncursesw6
+Provides: libreadline
+Source: feeds/base/package/libs/readline
+SourceName: libreadline
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1666541782
+ABIVersion: 8
+CPE-ID: cpe:/a:gnu:readline
+Architecture: aarch64_generic
+Installed-Size: 142746
+Filename: libreadline8_8.2-1_aarch64_generic.ipk
+Size: 142265
+SHA256sum: 4bc2d38418b9ce751262063faea66a4e57b1b11349d7d15ebda8b41cc1acf163
+Description:  The Readline library provides a set of functions for use by applications
+ that allow users to edit command lines as they are typed in. Both Emacs
+ and vi editing modes are available. The Readline library includes
+ additional functions to maintain a list of previously-entered command
+ lines, to recall and perhaps reedit those lines, and perform csh-like
+ history expansion on previous commands.
+
+Package: libxml2-dev
+Version: 2.14.5-1
+Depends: libc, libxml2
+Source: feeds/base/package/libs/libxml2
+SourceName: libxml2-dev
+License: MIT
+LicenseFiles: COPYING
+Section: devel
+SourceDateEpoch: 1753638659
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: aarch64_generic
+Installed-Size: 80473
+Filename: libxml2-dev_2.14.5-1_aarch64_generic.ipk
+Size: 81386
+SHA256sum: f9d3335c6a93ac6fd594ea23ed9b2a387166727460187dca2a3ec2518a078327
+Description:  A library for manipulating XML and HTML resources.
+ 
+ This package contains the headers and xml2-config binary.
+
+Package: libxml2-utils
+Version: 2.14.5-1
+Depends: libc, libxml2
+Source: feeds/base/package/libs/libxml2
+SourceName: libxml2-utils
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1753638659
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: aarch64_generic
+Installed-Size: 30310
+Filename: libxml2-utils_2.14.5-1_aarch64_generic.ipk
+Size: 30687
+SHA256sum: bca0559df70427f7a422cb2189e636727b900cb951ef6bff01981d58ee44b050
+Description:  This package contains the binaries xmllint and xmlcatalog
+ from libxml2, a library for manipulating XML and HTML resources.
+
+Package: libxml2
+Version: 2.14.5-1
+Depends: libc, libpthread, zlib
+Source: feeds/base/package/libs/libxml2
+SourceName: libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1753638659
+CPE-ID: cpe:/a:xmlsoft:libxml2
+Architecture: aarch64_generic
+Installed-Size: 484935
+Filename: libxml2_2.14.5-1_aarch64_generic.ipk
+Size: 484370
+SHA256sum: ee00ba4ee92a6cccb91de42244a2f1898792d0c56f0e4a679645b239d815cccf
+Description:  A library for manipulating XML and HTML resources.
+
+Package: resolveip
+Version: 2
+Depends: libc
+Source: feeds/base/package/network/utils/resolveip
+SourceName: resolveip
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1476524212
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_generic
+Installed-Size: 1969
+Filename: resolveip_2_aarch64_generic.ipk
+Size: 2751
+SHA256sum: 70551d1fedc3076a34dd82e498617ca47bf790f12699c65ae01dc2c41c64b0d9
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: terminfo
+Version: 6.4-2
+Depends: libc
+Source: feeds/base/package/libs/ncurses
+SourceName: terminfo
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1726358605
+CPE-ID: cpe:/a:gnu:ncurses
+Architecture: aarch64_generic
+Installed-Size: 8195
+Filename: terminfo_6.4-2_aarch64_generic.ipk
+Size: 8887
+SHA256sum: 82349fc30547a4ac647566ace6156ffcc42b029af350330199d7dff4c59c3844
+Description:  Terminal Info Database (ncurses)
+
+Package: zlib-dev
+Version: 1.2.13-1
+Depends: libc, zlib
+Source: feeds/base/package/libs/zlib
+SourceName: zlib-dev
+License: Zlib
+LicenseFiles: README
+Section: devel
+SourceDateEpoch: 1684402529
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: aarch64_generic
+Installed-Size: 82243
+Filename: zlib-dev_1.2.13-1_aarch64_generic.ipk
+Size: 82989
+SHA256sum: 66ae5a5ebd3d7703ca0ccc772a72ca4f5612475d627ef38dc4e54f8d316feab9
+Description:  zlib is a lossless data-compression library.
+ This package includes the development support files.
+
+Package: zlib
+Version: 1.2.13-1
+Depends: libc
+Source: feeds/base/package/libs/zlib
+SourceName: zlib
+License: Zlib
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1684402529
+CPE-ID: cpe:/a:gnu:zlib
+Architecture: aarch64_generic
+Installed-Size: 45094
+Filename: zlib_1.2.13-1_aarch64_generic.ipk
+Size: 45579
+SHA256sum: 54e98799f7b46e32a65f1f6f973019e1a6ba18390bd5d86a8622e56fcf2a9821
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+
