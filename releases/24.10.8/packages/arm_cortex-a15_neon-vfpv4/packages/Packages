@@ -6,15 +6,15 @@ SourceName: gnutls
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: http://www.gnutls.org/
 CPE-ID: cpe:/a:gnu:gnutls
 Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 215040
 Filename: certtool_3.8.5-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 94341
-SHA256sum: 63932bcf2af91eebb79da258ba293294d111b677d9b6ee0adab3ad5eb6db4e45
+Size: 94318
+SHA256sum: 31448e8414d7e22abb2235f4dbc5d4cd3aa878da2774c15a44a547805391948c
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -31,15 +31,15 @@ SourceName: gnutls
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: http://www.gnutls.org/
 CPE-ID: cpe:/a:gnu:gnutls
 Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 327680
 Filename: gnutls-utils_3.8.5-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 151154
-SHA256sum: 2acdc13296137edc6538cf527e9f467f19906dfb0e8176dc7679b5b294ef4e24
+Size: 151021
+SHA256sum: 8693b22424661845c2ebb3951862295a9ad812df8c910bc30255f5e1fb935389
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -57,33 +57,33 @@ SourceName: libev
 License: BSD-2-Clause or GPL-2.0-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: http://software.schmorp.de/pkg/libev.html
 Maintainer: Karl Palsson <karlp@tweak.net.au>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 51200
 Filename: libev_4.33-r2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 20826
-SHA256sum: 665d85f8d0da73bd47c6fb3c74c6613f6b9f9cf8101663485ba8d7133a557306
+Size: 20818
+SHA256sum: 2ed2b8c1f55773457c13485cb7973baeab2de0c5868cc35db73d6af9df98e3f5
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
 
 Package: libexpat
-Version: 2.8.2-r1
+Version: 2.8.4-r1
 Depends: libc
 Source: feeds/packages/libs/expat
 SourceName: expat
 License: MIT
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://libexpat.github.io/
 CPE-ID: cpe:/a:libexpat_project:libexpat
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 122880
-Filename: libexpat_2.8.2-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 47089
-SHA256sum: e77c482fc88ca10e22cc4b0b5dd5212c4b54f670752b27ff1b836b5c7dc7d735
+Filename: libexpat_2.8.4-r1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 47430
+SHA256sum: 3d5e8e623dead42500d0d479bb1e676e5f8036fd3682754cec1eaf80b2dd9412
 Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libgnutls-dane
@@ -94,15 +94,15 @@ SourceName: gnutls
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: http://www.gnutls.org/
 CPE-ID: cpe:/a:gnu:gnutls
 Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 40960
 Filename: libgnutls-dane_3.8.5-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 18319
-SHA256sum: f05ec58c03f564f1553ca0929f0fdabb30b52a2ad4c08192dbbd54484d7f2cfb
+Size: 18317
+SHA256sum: 93b5cad4fe425aa25b49ffc885d044037a4e9a32e885286d24d3845fc8b76405
 Description:  GNU TLS (libgnutls-dane library)
 
 Package: libgnutls
@@ -113,15 +113,15 @@ SourceName: gnutls
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: http://www.gnutls.org/
 CPE-ID: cpe:/a:gnu:gnutls
 Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 1996800
 Filename: libgnutls_3.8.5-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 939752
-SHA256sum: 42bc25a56fc3b2ac3a5028fd34ea67ab74fea6ed659c9bd87e49a62552fe6752
+Size: 939776
+SHA256sum: 558166504d4dd0c95577eb4288f62902d7225ede3da5c0b29b0caf7b4de2727e
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -138,14 +138,14 @@ SourceName: libprotobuf-c
 License: BSD-2-Clause
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://github.com/protobuf-c/protobuf-c
 CPE-ID: cpe:/a:protobuf-c_project:protobuf-c
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 20480
 Filename: libprotobuf-c_1.4.1-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 9731
-SHA256sum: 5278e3eddd631b634a5b629a8cab70bfcbf3f126559ada0e87b9ea1b4451de6d
+Size: 9722
+SHA256sum: fbbd31a8f31d0ba01bdf9aeba9d1a1cbe5045d616819e30023038144d79dcb6a
 Description:  Runtime library to use Google Protocol Buffers from C applications.
  Protocol Buffers are a way of encoding structured data in an efficient yet
  extensible format. Google uses Protocol Buffers for almost all of its
@@ -159,20 +159,20 @@ SourceName: libtasn1
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING.LIB
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://www.gnu.org/software/libtasn1/
 CPE-ID: cpe:/a:gnu:libtasn1
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 61440
 Filename: libtasn1_4.19.0-r2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 30854
-SHA256sum: e9b221dc343c6a0911e39695982eb7300ed354c12a7816641fa00ba38e9ce2f6
+Size: 30852
+SHA256sum: 666c602f0677f8bc0aa86161bb3254ca27c5e891c5ef8c840eba5bba84d99e0e
 Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
  Distinguish Encoding Rules (DER) manipulation.
 
 Package: libunbound
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, libmnl0, libevent2-7, libpthread
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -180,15 +180,15 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: libs
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 1034240
-Filename: libunbound_1.25.2-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 471830
-SHA256sum: 776b69937430693e9feeeb11159575ad85950940edbbb7ec0b32b589974b46a2
+Installed-Size: 1054720
+Filename: libunbound_1.26.1-r2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 479041
+SHA256sum: ed48b67d5427b11adbbd3f782264c44ebd6bc8745b6af09bf9d83db8b5e3fe56
 Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
  'libpthread' to better handle large networks with heavy query loads. Options
  are available to custom trim Unbound for smaller targets.
@@ -201,15 +201,15 @@ SourceName: protobuf
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://github.com/google/protobuf
 CPE-ID: cpe:/a:google:protobuf
 Maintainer: Ken Keys <kkeys@caida.org>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 409600
 Filename: protobuf-lite_3.17.3-r2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 135847
-SHA256sum: 5983071895d254cad505fc7e484c3982f20fd74512bc54f7f089ad8696e869a2
+Size: 135963
+SHA256sum: 9ea22fe845dd6cbae40f833111765e315ba2dc9c814ef9a9484b3ad7d9ca6377
 Description:  Protocol Buffers are a way of encoding structured data in an efficient
  yet extensible format. Google uses Protocol Buffers for almost all
  of its internal RPC protocols and file formats.
@@ -225,15 +225,15 @@ SourceName: protobuf
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://github.com/google/protobuf
 CPE-ID: cpe:/a:google:protobuf
 Maintainer: Ken Keys <kkeys@caida.org>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 3696640
 Filename: protobuf_3.17.3-r2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 1300556
-SHA256sum: b734df8b13fba0753f9cdb5587ed6ba19666dd230a0ebb9426c9feb3fda20850
+Size: 1300553
+SHA256sum: f383aeec4884f97f5d4244e50540aae1947077adf189e825c410374fda90de6e
 Description:  Protocol Buffers are a way of encoding structured data in an efficient
  yet extensible format. Google uses Protocol Buffers for almost all
  of its internal RPC protocols and file formats.
@@ -243,7 +243,7 @@ Description:  Protocol Buffers are a way of encoding structured data in an effic
  
 
 Package: unbound-anchor
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, unbound-daemon, libexpat
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -251,19 +251,19 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 61440
-Filename: unbound-anchor_1.25.2-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 23968
-SHA256sum: 48fc7c3022b9c17998a4f0f1c287aef2ffa0ecd4848be834649b57258170e2ab
+Filename: unbound-anchor_1.26.1-r2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 25459
+SHA256sum: dfa54d311e191c54b26de0f903dc8af902addcb24bfd0513f61b91c8a0626ca3
 Description:  This package contains the Unbound anchor utility.
 
 Package: unbound-checkconf
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, unbound-daemon
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -271,19 +271,19 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 112640
-Filename: unbound-checkconf_1.25.2-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 51118
-SHA256sum: a4a823dc61c5055c90eaae8ed8dd786751f5f39c62594620ee3b38ca52627fb9
+Installed-Size: 122880
+Filename: unbound-checkconf_1.26.1-r2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 51523
+SHA256sum: 6fbb90378a6fd51eb55c94ba72615e8372299cce098f730198d15328c962c7ef
 Description:  This package contains the Unbound DNS configuration checker utility.
 
 Package: unbound-control-setup
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, unbound-control, openssl-util
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -291,19 +291,19 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 10240
-Filename: unbound-control-setup_1.25.2-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 3544
-SHA256sum: 345b3027531c6437ac14344f4cc974dd48e3e85928549ec6bd00f0ee20b6b553
+Filename: unbound-control-setup_1.26.1-r2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3546
+SHA256sum: c5aa1c6422ad82800fbafd8a7969a19e42604b97ffc697bd5839dfbe9d209780
 Description:  This package contains the Unbound control setup utility.
 
 Package: unbound-control
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, unbound-daemon
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -311,19 +311,19 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 122880
-Filename: unbound-control_1.25.2-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 53039
-SHA256sum: e0141f30da5afc9b32b9dcae8686e2958baef50dfa9b9376085c8e2744374ac7
+Filename: unbound-control_1.26.1-r2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 52881
+SHA256sum: 7655ac0ae57db158f511bf3b25dd68bb92e90b4227e21d87e170d539097ac34e
 Description:  This package contains the Unbound control utility.
 
 Package: unbound-daemon
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, libunbound
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -331,22 +331,22 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 450560
-Filename: unbound-daemon_1.25.2-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 170464
-SHA256sum: fb6fb6e8499df58671fb8a6a8a3a3cae3398b87aefd8e3345b9ba2ab476c61ff
+Installed-Size: 460800
+Filename: unbound-daemon_1.26.1-r2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 172029
+SHA256sum: 68f0bb051815305fa98018fcd106634a368f2e792b26780a06cf3388ac24444e
 Description:  This package contains the Unbound daemon including 'libevent', 'libmnl', and
  'libpthread' to better handle large networks with heavy query loads. Options
  are available under libraries/network/libunbound to custom trim Unbound for
  smaller targets.
 
 Package: unbound-host
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, libunbound
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -354,15 +354,15 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 102400
-Filename: unbound-host_1.25.2-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 43610
-SHA256sum: 8d0d987a7ed80fa3c1bc8e0354bc7019d7d85987095d468da9d81fd187be7817
+Filename: unbound-host_1.26.1-r2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 43633
+SHA256sum: fec391ceb98374f628561064e6c2de6b2106d4e26322730e273890532ab2728f
 Description:  This package contains the Unbound DNS lookup utility.
 
 Package: vpnc-scripts
@@ -371,13 +371,13 @@ Depends: libc
 Source: feeds/packages/net/vpnc-scripts
 SourceName: vpnc-scripts
 Section: net
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: all
 Installed-Size: 10240
 Filename: vpnc-scripts_20151220-r3_all.ipk
-Size: 3083
-SHA256sum: 57504f7ad49c8cd4bb537c7209f722f471b7efa245dd03c27fdfffa1891c2f09
+Size: 3077
+SHA256sum: 9f70ddd148eca0bceeda731fedf57059aea97394e8d85e221da70b04ce4d23fc
 Description:  This package contains the vpnc-script which is used by vpnc
  and OpenConnect to configure the tunnel interface.
 
