@@ -6,15 +6,15 @@ SourceName: gnutls
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: http://www.gnutls.org/
 CPE-ID: cpe:/a:gnu:gnutls
 Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 276480
 Filename: certtool_3.8.5-r1_aarch64_cortex-a53.ipk
-Size: 96359
-SHA256sum: 4f72a0d5807b7578f8d4e7367e9a919931e4f40a129d7db8855b302d249bf998
+Size: 96360
+SHA256sum: 6572403b1705c8856905646bc7b92cb4871d1843d81a8ea46804b7be59b6ab07
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -31,15 +31,15 @@ SourceName: gnutls
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: http://www.gnutls.org/
 CPE-ID: cpe:/a:gnu:gnutls
 Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 481280
 Filename: gnutls-utils_3.8.5-r1_aarch64_cortex-a53.ipk
-Size: 153360
-SHA256sum: ae87c2de428daa42dea78c822e346484b5d30e9601b911bd33c5ff67aee5b334
+Size: 153362
+SHA256sum: 5211680c5c6b3524b06274294bfc8798726d8d505f8381e1cc179871c7e528bf
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -57,33 +57,33 @@ SourceName: libev
 License: BSD-2-Clause or GPL-2.0-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: http://software.schmorp.de/pkg/libev.html
 Maintainer: Karl Palsson <karlp@tweak.net.au>
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: libev_4.33-r2_aarch64_cortex-a53.ipk
-Size: 24541
-SHA256sum: 9b436f9f80b81ca5646f4be2d0301794eee422a082b49c0b132f674d647cd9aa
+Size: 24534
+SHA256sum: 2db083749fabd50b83918af183f2b62be90e0c8088070b3b0447649d06d80228
 Description:  A full-featured and high-performance event loop that is loosely modelled after
  libevent, but without its limitations and bugs.
 
 Package: libexpat
-Version: 2.8.2-r1
+Version: 2.8.4-r1
 Depends: libc
 Source: feeds/packages/libs/expat
 SourceName: expat
 License: MIT
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://libexpat.github.io/
 CPE-ID: cpe:/a:libexpat_project:libexpat
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: libexpat_2.8.2-r1_aarch64_cortex-a53.ipk
-Size: 53103
-SHA256sum: 454c8a1da0dab759fa690ff92fe2c45877c073b1b26869b37d63041c3082c468
+Filename: libexpat_2.8.4-r1_aarch64_cortex-a53.ipk
+Size: 53362
+SHA256sum: 4aba9903c2b6ee05ab4c2b908c2c436f98b790c3f881983792d5ad8f68934b9d
 Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libgnutls-dane
@@ -94,15 +94,15 @@ SourceName: gnutls
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: http://www.gnutls.org/
 CPE-ID: cpe:/a:gnu:gnutls
 Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: libgnutls-dane_3.8.5-r1_aarch64_cortex-a53.ipk
-Size: 24270
-SHA256sum: 8460c38e1363183e411da634809c084c337681e98646056cfe3b7ae0cc8fa0a6
+Size: 24278
+SHA256sum: 7e88bb55921b46c4a8c0006efab0f37ec01e01792d04dd13bd69ed3610a72bf0
 Description:  GNU TLS (libgnutls-dane library)
 
 Package: libgnutls
@@ -113,15 +113,15 @@ SourceName: gnutls
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: http://www.gnutls.org/
 CPE-ID: cpe:/a:gnu:gnutls
 Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 2242560
 Filename: libgnutls_3.8.5-r1_aarch64_cortex-a53.ipk
-Size: 911602
-SHA256sum: 1995231450d40025338c4e2aed3ab5adfdebb353f5367135e03290122a63f76b
+Size: 911506
+SHA256sum: c4e3ecef650d7a7453a1faa2e24dc5ad9c2e9ea7eca58afdcba749d43fe0d2c8
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -138,14 +138,14 @@ SourceName: libprotobuf-c
 License: BSD-2-Clause
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://github.com/protobuf-c/protobuf-c
 CPE-ID: cpe:/a:protobuf-c_project:protobuf-c
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: libprotobuf-c_1.4.1-r1_aarch64_cortex-a53.ipk
-Size: 11178
-SHA256sum: e5c8d5674b98645b27c7cfb9c5a91d6c8de337ea813c2ab4f02c9f35cce303f6
+Size: 11177
+SHA256sum: 70e870e63b2ebe7240c4f30654039c4b204a66f8df368ae3217b6c271cd01d1b
 Description:  Runtime library to use Google Protocol Buffers from C applications.
  Protocol Buffers are a way of encoding structured data in an efficient yet
  extensible format. Google uses Protocol Buffers for almost all of its
@@ -159,20 +159,20 @@ SourceName: libtasn1
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING.LIB
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://www.gnu.org/software/libtasn1/
 CPE-ID: cpe:/a:gnu:libtasn1
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: libtasn1_4.19.0-r2_aarch64_cortex-a53.ipk
-Size: 33680
-SHA256sum: 5e0406cba85048e88f9b830239c7842fd477cb0818a2c7053ccccd7596996cb3
+Size: 33659
+SHA256sum: 023d46f054626c374b7c5b6eca7f9c07d51e51f21d24a29ffbeca9cec20b46d2
 Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
  Distinguish Encoding Rules (DER) manipulation.
 
 Package: libunbound
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, libmnl0, libevent2-7, libpthread
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -180,15 +180,15 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: libs
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1269760
-Filename: libunbound_1.25.2-r1_aarch64_cortex-a53.ipk
-Size: 492715
-SHA256sum: 44bbb950cfa341934b3cda2be8cfe64af3246d23b8ffbfb8e7b1413f1d79152e
+Filename: libunbound_1.26.1-r2_aarch64_cortex-a53.ipk
+Size: 500244
+SHA256sum: 53885d812a758765efcc7e44c8a0f5ec52e20dee12308dff55f409b3df62f54c
 Description:  This package contains the Unbound library including 'libevent', 'libmnl', and
  'libpthread' to better handle large networks with heavy query loads. Options
  are available to custom trim Unbound for smaller targets.
@@ -201,15 +201,15 @@ SourceName: protobuf
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://github.com/google/protobuf
 CPE-ID: cpe:/a:google:protobuf
 Maintainer: Ken Keys <kkeys@caida.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 532480
 Filename: protobuf-lite_3.17.3-r2_aarch64_cortex-a53.ipk
-Size: 156520
-SHA256sum: cb89fa325c0c2690a703731e23736cce6d7feb652e8e1e4ea3ef8e4c39fca864
+Size: 156579
+SHA256sum: afc39325cfffc0e1504a64d4086025026c173dcb3bf3237aa22ee2160e24cee6
 Description:  Protocol Buffers are a way of encoding structured data in an efficient
  yet extensible format. Google uses Protocol Buffers for almost all
  of its internal RPC protocols and file formats.
@@ -225,15 +225,15 @@ SourceName: protobuf
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://github.com/google/protobuf
 CPE-ID: cpe:/a:google:protobuf
 Maintainer: Ken Keys <kkeys@caida.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 4730880
 Filename: protobuf_3.17.3-r2_aarch64_cortex-a53.ipk
-Size: 1462473
-SHA256sum: da0567ec1154557c2aba241dac35304d3f303ed990eb6e0d80623f35cdd56bb3
+Size: 1462398
+SHA256sum: a1d7f15d01c23506512e46e27b2aa27948d1e23561efb0564854961f1a0fb379
 Description:  Protocol Buffers are a way of encoding structured data in an efficient
  yet extensible format. Google uses Protocol Buffers for almost all
  of its internal RPC protocols and file formats.
@@ -243,7 +243,7 @@ Description:  Protocol Buffers are a way of encoding structured data in an effic
  
 
 Package: unbound-anchor
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, unbound-daemon, libexpat
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -251,19 +251,19 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: unbound-anchor_1.25.2-r1_aarch64_cortex-a53.ipk
-Size: 23818
-SHA256sum: bf6913129093ddfd14fc01c62c5f2f10c22f8f1af85db42ef0e82fd45e6dce9b
+Filename: unbound-anchor_1.26.1-r2_aarch64_cortex-a53.ipk
+Size: 25407
+SHA256sum: 4bbd235893d2c3793642799e7eec0f0a2b61d498ac36c5d7328a81c278e813ac
 Description:  This package contains the Unbound anchor utility.
 
 Package: unbound-checkconf
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, unbound-daemon
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -271,19 +271,19 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 153600
-Filename: unbound-checkconf_1.25.2-r1_aarch64_cortex-a53.ipk
-Size: 57233
-SHA256sum: c3c4d8f04cf2c37ebf7540f528407c0f9ac71aaa7dbaac4064a7bceca9e6648d
+Filename: unbound-checkconf_1.26.1-r2_aarch64_cortex-a53.ipk
+Size: 57760
+SHA256sum: ad5d721d7005c5596ba87947b0b4de803fe09fa227f4bf340eac778d0e7b9946
 Description:  This package contains the Unbound DNS configuration checker utility.
 
 Package: unbound-control-setup
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, unbound-control, openssl-util
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -291,19 +291,19 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
-Filename: unbound-control-setup_1.25.2-r1_aarch64_cortex-a53.ipk
-Size: 3538
-SHA256sum: 3b468bb60d3d94035069dd5df8132539ffa2231b143444ae7e6fb254d6b8e6aa
+Filename: unbound-control-setup_1.26.1-r2_aarch64_cortex-a53.ipk
+Size: 3539
+SHA256sum: c77ebc3bd4f29e65d2abecd33614efdcbf761a58b8155771abdf2ab847205368
 Description:  This package contains the Unbound control setup utility.
 
 Package: unbound-control
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, unbound-daemon
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -311,19 +311,19 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 153600
-Filename: unbound-control_1.25.2-r1_aarch64_cortex-a53.ipk
-Size: 58303
-SHA256sum: c4b4f121e4cba1e78d16e9d6453ff5f943b085fdca9018a4548de85e0262e2b3
+Filename: unbound-control_1.26.1-r2_aarch64_cortex-a53.ipk
+Size: 58325
+SHA256sum: c2ab7c9e65a174e9f97f56c5ebd2fd7c41dee5740a15f3a8669f13f16d9f5928
 Description:  This package contains the Unbound control utility.
 
 Package: unbound-daemon
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, libunbound
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -331,22 +331,22 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 512000
-Filename: unbound-daemon_1.25.2-r1_aarch64_cortex-a53.ipk
-Size: 173854
-SHA256sum: 7156240a54bc11c2ba873da52083821660e9f5d768db560b8b9eef3a1e016281
+Filename: unbound-daemon_1.26.1-r2_aarch64_cortex-a53.ipk
+Size: 175132
+SHA256sum: 60275023cca1f311f699b1faf813b95598ecbabb67dc3c321d10687f4d8b3f7e
 Description:  This package contains the Unbound daemon including 'libevent', 'libmnl', and
  'libpthread' to better handle large networks with heavy query loads. Options
  are available under libraries/network/libunbound to custom trim Unbound for
  smaller targets.
 
 Package: unbound-host
-Version: 1.25.2-r1
+Version: 1.26.1-r2
 Depends: libc, ca-bundle, libopenssl3, libunbound
 Source: feeds/packages/net/unbound
 SourceName: unbound
@@ -354,15 +354,15 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
 Require-User: unbound:unbound
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 URL: https://nlnetlabs.nl/projects/unbound/about
 CPE-ID: cpe:/a:nlnetlabs:unbound
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 153600
-Filename: unbound-host_1.25.2-r1_aarch64_cortex-a53.ipk
-Size: 49466
-SHA256sum: b35008af9b995f088842f79871bcb144ba843f00c06986edf0e4e9f67547fd0e
+Filename: unbound-host_1.26.1-r2_aarch64_cortex-a53.ipk
+Size: 49550
+SHA256sum: 2ee4f2f83b97838e9e97c2984e94ce2c3a7ba9b6812249d1893ef6431a87f685
 Description:  This package contains the Unbound DNS lookup utility.
 
 Package: vpnc-scripts
@@ -371,13 +371,13 @@ Depends: libc
 Source: feeds/packages/net/vpnc-scripts
 SourceName: vpnc-scripts
 Section: net
-SourceDateEpoch: 1789028618
+SourceDateEpoch: 1792564006
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: all
 Installed-Size: 10240
 Filename: vpnc-scripts_20151220-r3_all.ipk
-Size: 3083
-SHA256sum: 57504f7ad49c8cd4bb537c7209f722f471b7efa245dd03c27fdfffa1891c2f09
+Size: 3077
+SHA256sum: 9f70ddd148eca0bceeda731fedf57059aea97394e8d85e221da70b04ce4d23fc
 Description:  This package contains the vpnc-script which is used by vpnc
  and OpenConnect to configure the tunnel interface.
 
